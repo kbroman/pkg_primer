@@ -19,6 +19,8 @@ your future self.
 jump straight there. But there is value in having a diversity of
 resources, so I thought I'd go ahead and write my own minimal tutorial.
 
+**\[I'm just getting started with this, so there's not really much content here.\]**
+
 - [Why write an R package?](pages/why.html)
 - [The minimal R package](pages/minimal.html)
 - [Building and installing an R package](pages/build.html)
