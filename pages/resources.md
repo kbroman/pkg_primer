@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: Further resources
 ---
 
 - [Hilary Parker](http://hillaryparker.com)'s
