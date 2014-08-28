@@ -52,7 +52,7 @@ etc., even though this would really just be a single directory,
 
 ---
 
-#### A few asides
+### A few asides
 
 The functions above are taken from my [R/broman](http://github.com/kbroman/broman) package, which
 contains miscellaneous R functions that are useful to me.
@@ -74,7 +74,7 @@ just `major.minor`. You should probably follow
 
 ---
 
-#### Homework
+### Homework
 
 Now, take a couple of your own R functions
 

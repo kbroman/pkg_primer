@@ -12,7 +12,7 @@ I generally do so from the command line (on my Mac). If you're using
 Windows, you'll want to install
 [Rtools](http://cran.r-project.org/bin/windows/Rtools/).
 
-#### Building an R package
+### Building an R package
 
 - Open a terminal window
 - Go to the directory that _contains_ your package
@@ -37,7 +37,7 @@ Windows, you'll want to install
   And you should then have the `brocolors_0.1.tar.gz` file (or the
   equivalent for _your_ package).
 
-#### Installing an R package
+### Installing an R package
 
 To install the package, type (at the command line)
 
@@ -50,7 +50,7 @@ try
     brocolors()
     plot_crayons()
 
-#### Building and installing a package using devtools
+### Building and installing a package using devtools
 
 Even easier then the above is to use [Hadley Wickham](http://had.co.nz/)'s
 [devtools](https://github.com/hadley/devtools) package. You can then
@@ -92,7 +92,7 @@ in this case.)
 
 ---
 
-#### Homework
+### Homework
 
 Try building and installing your own package.
 

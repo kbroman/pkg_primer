@@ -17,7 +17,7 @@ more things.
 - Create a `NAMESPACE` file.
 - Add some documentation.
 
-#### Filling out the `DESCRIPTION` file
+### Filling out the `DESCRIPTION` file
 
 Our `DESCRIPTION` file had just two lines. We need to add a few more:
 a title, a description, an author, and a maintainer (usually one of
@@ -43,7 +43,7 @@ A bunch more things can be put in the `DESCRIPTION` file, but this is
 sufficient for now.
 
 
-#### Creating a `NAMESPACE` file
+### Creating a `NAMESPACE` file
 
 Creating a package `NAMESPACE` file has long been one of the more
 painful aspects of building an R package.
@@ -78,12 +78,12 @@ Your package will then look
 It's still not a _proper_ package (in that we still need to write some
 documentation), but you can now [build and install it with devtools](build.html).
 
-#### Documentation
+### Documentation
 
 
 ---
 
-#### Homework
+### Homework
 
 Fill out the `DESCRIPTION` file for your package and add a minimal
 `NAMESPACE` file. Try building and installing it with
