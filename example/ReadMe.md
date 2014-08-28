@@ -14,8 +14,7 @@ improved versions of an example R package, `brocolors`.
   `NAMESPACE` file
 - [`stage3/`](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage2/LICENSE)
   &ndash; removed the minimal `NAMESPACE` file and added [Roxygen2](http://kbroman.org/pkg_primer/roxygen.html)
-  comments to the functions in the `.R` files. Also added `devtools` to the
-  `DESCRIPTION` file.
+  comments to the functions in the `.R` files.
 - [`stage4/`](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage3/LICENSE)
   &ndash; the `stage3` version after processing with the devtools
   function `doc()`
