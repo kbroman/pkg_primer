@@ -155,7 +155,7 @@ those comments and create the `NAMESPACE` and `.Rd` files.
 The simplest way to process the Roxygen2 comments to create the
 `NAMESPACE` and `.Rd` files is to use devtool's `document()` function,
 within R. Start R with your package directory as the working directory
-(or change to that directory with `setwd()`). The load the devtools
+(or change to that directory with `setwd()`). Then load the devtools
 package with `library(devtools)` and type
 
     document()
