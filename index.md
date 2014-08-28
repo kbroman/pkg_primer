@@ -49,7 +49,7 @@ If anyone's still with me, start with [the why](pages/why.html).
 - [Writing tests](pages/tests.html)
 - [Including datasets](pages/data.html)
 - [Including compiled code](pages/compiled.html)
-- [Resources](pages/resources.html)
+- [Further resources](pages/resources.html)
 
 If anything here is confusing (or _wrong_!), or if I've missed
 important details, please
