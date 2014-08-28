@@ -16,6 +16,7 @@ title: Further resources
   [book](http://www.amazon.com/exec/obidos/ASIN/1482203537/7210-20)
 - My [knitr in a knutshell](http://kbroman.org/knitr_knutshell) tutorial
 - [devtools](https://github.com/hadley/devtools) package
+- [Rd2roxygen](https://github.com/yihui/Rd2roxygen) package
 - [testthat](https://github.com/hadley/testthat) package
 - [A lecture with discussion of software licenses](http://kbroman.org/Tools4RR/assets/lectures/15_licenses_withnotes.pdf)
   from my [Tools for reproducible research course](http://kbroman.org/Tools4RR/)
