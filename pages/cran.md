@@ -15,4 +15,4 @@ title: Getting your R package on CRAN
 
 ---
 
-Now go to the page about [writing vignettes](pages/vignettes.html).
+Now go to the page about [writing vignettes](vignettes.html).

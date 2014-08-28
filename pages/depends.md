@@ -9,4 +9,4 @@ title: Connecting to other packages
 
 ---
 
-Now go to the page about [including compiled code](pages/compiled.html).
+Now go to the page about [including compiled code](compiled.html).
