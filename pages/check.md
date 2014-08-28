@@ -61,4 +61,4 @@ Modify your package so that there are no errors or warnings.
 You are now done with the essentials and have a proper R package!
 
 Go back to the [main page](http://kbroman.org/pkg_primer), or go to the page
-about [putting you R package on GitHub](pages/github.html).
+about [putting you R package on GitHub](github.html).
