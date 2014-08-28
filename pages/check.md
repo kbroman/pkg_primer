@@ -56,12 +56,9 @@ Start R within your package directory, load the devtools library with
 Use `R CMD check` and `R CMD check --as-cran` or, with devtools,
 `check()`.
 
-You'll for sure get an error about not having a `License`
-field within the `DESCRIPTION` file. (We'll
-[talk about that next](licenses.html).)
-But that should be the only problem.
+Modify your package so that there are no errors or warnings.
 
-Modify your package so that there are no errors or warnings, other
-than the `License` one.
+You are now done with the essentials and have a proper R package!
 
-Then go to the page about [putting your R package on GitHub](pages/github.html).
+Go back to the [main page](http://kbroman.org), or go to the page
+about [putting your R package on GitHub](pages/github.html).
