@@ -26,14 +26,29 @@ That is, you just need to give the package a name, like `brocolors`, and a
 version number, like `0.1`, and then put those pieces in a
 file called `DESCRIPTION` in this specific way.
 
-[Here's the code rearranged in that way](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage0).
+[Here's the code rearranged in that way](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage1).
 
 Believe it or not, _that's all you need to have a working R package!_
 
-It's not a _proper_ R package. You need to fill out the `DESCRIPTION`
-file a bit and add some documentation. But those two steps alone are
+It's not a [_proper_](proper.html) R package. You need to fill out the `DESCRIPTION`
+file a bit and add some documentation. (Also, you need a `NAMESPACE`
+file; more on that soon.) But those two steps alone are
 sufficient for you to build and install the package &ndash; for your
 own use, or to be shared with a friend.
+
+**Note**: usually the directory containing this stuff would be named
+with the package name (`brocolors` in this case). This isn't strictly
+necessary, but it's confusing otherwise.
+
+In _my example_ I'm making several different versions of the package
+directory, to illustrate the process of going from a minimal package
+to a proper package to a fully filled-out package. And so I'm calling
+the directory
+[`stage0`](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage0),
+[`stage1`](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage1),
+etc., even though this would really just be a single directory,
+`brocolors`, being modified over time.
+
 
 ---
 
@@ -59,4 +74,12 @@ just `major.minor`. You should probably follow
 
 ---
 
-Now go to the page about [building and installing an R package](build.html).
+#### Homework
+
+Now, take a couple of your own R functions
+
+- make a directory for them
+- create an `R` subdirectory
+- write a minimal `DESCRIPTION` file
+
+Then go to the page about [building and installing an R package](build.html).
