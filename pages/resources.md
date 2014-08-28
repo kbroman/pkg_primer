@@ -17,3 +17,5 @@ title: Further resources
 - My [knitr in a knutshell](http://kbroman.org/knitr_knutshell) tutorial
 - [devtools](https://github.com/hadley/devtools) package
 - [testthat](https://github.com/hadley/testthat) package
+- [A lecture with discussion of software licenses](http://kbroman.org/Tools4RR/assets/lectures/15_licenses_withnotes.pdf)
+  from my [Tools for reproducible research course](http://kbroman.org/Tools4RR/)
