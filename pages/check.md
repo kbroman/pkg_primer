@@ -64,4 +64,4 @@ But that should be the only problem.
 Modify your package so that there are no errors or warnings, other
 than the `License` one.
 
-Then go to the page about [software licenses](licenses.html).
+Then go to the page about [putting your R package on GitHub](pages/github.html).

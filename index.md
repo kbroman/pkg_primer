@@ -40,8 +40,8 @@ making an R package.
 - [Building and installing an R package](pages/build.html)
 - [Making it an proper package](pages/proper.html)
 - [Writing documentation with Roxygen2](pages/docs.html)
-- [Checking an R package](pages/check.html)
 - [Software licenses](pages/licenses.html)
+- [Checking an R package](pages/check.html)
 
 The following (**not yet complete**) are important but not essential.
 

@@ -107,7 +107,4 @@ and it is now a _proper R package_.
 Pick a license for your software, make the appropriate change to your
 `DESCRIPTION` file, and if necessary add a `LICENSE` file.
 
-Use `R CMD check` and `R CMD check --as-cran` or, with devtools,
-`check()`. Modify your package so that there are no errors or warnings.
-
-Then go to the page about [putting your R package on GitHub](pages/github.html).
+Then go to the page about [checking an R package](check.html).
