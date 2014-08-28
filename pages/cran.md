@@ -9,6 +9,9 @@ title: Getting your R package on CRAN
 - Read the CRAN policy carefully.
 - How to submit
 - Be nice.
+- Examples should be quick, as every example in every package on CRAN
+  is tested daily on multiple systems. Use `\dontrun{}` and `\dontshow{}` (and
+  also `\donttest{}` to make the examples go fast.
 
 ---
 
