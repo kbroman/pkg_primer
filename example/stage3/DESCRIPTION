@@ -1,0 +1,7 @@
+Package: brocolors
+Version: 0.1
+Date: 8/27/2014
+Title: Karl Broman colors
+Description: Colors that Karl Broman uses in figures
+Author: Karl W Broman <kbroman@biostat.wisc.edu>
+Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
