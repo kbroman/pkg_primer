@@ -24,15 +24,13 @@ a title, a description, an author, and a maintainer (usually one of
 the authors). It's also a good idea to include the date. It should
 look something like this:
 
-```
-Package: brocolors
-Version: 0.1
-Date: 8/27/2014
-Title: Karl Broman colors
-Description: Colors that Karl Broman uses in figures
-Author: Karl W Broman <kbroman@biostat.wisc.edu>
-Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
-```
+    Package: brocolors
+    Version: 0.1
+    Date: 8/27/2014
+    Title: Karl Broman colors
+    Description: Colors that Karl Broman uses in figures
+    Author: Karl W Broman <kbroman@biostat.wisc.edu>
+    Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
 
 The title should be short. The description should be a sentence or
 two; it can span multiple lines. The `Maintainer` field should include
@@ -61,10 +59,8 @@ of naming conflicts.
 A minimal `NAMESPACE` file is pretty easy, though. You just need one
 line.
 
-```
-# Export all names
-exportPattern(".")
-```
+    # Export all names
+    exportPattern(".")
 
 Okay, that's two lines. But the first line is just a comment.
 
