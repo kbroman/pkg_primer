@@ -32,9 +32,8 @@ and you've not already abandoned me in favor of
 [Hadley's book](http://r-pkgs.had.co.nz/), then why aren't you reading
 [Hilary's tutorial](http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)?
 
-If anyone's still with me, start with [the why](pages/why.html).
-
-**\[I'm just getting started with this, so there's not really much content here.\]**
+If anyone's still with me, the following pages cover the essentials of
+making an R package.
 
 - [Why write an R package?](pages/why.html)
 - [The minimal R package](pages/minimal.html)
@@ -43,18 +42,24 @@ If anyone's still with me, start with [the why](pages/why.html).
 - [Writing documentation with Roxygen2](pages/docs.html)
 - [Checking an R package](pages/check.html)
 - [Software licenses](pages/licenses.html)
+
+The following (**not yet complete**) are important but not essential.
+
 - [Putting it on GitHub](pages/github.html)
 - [Getting it on CRAN](pages/cran.html)
 - [Writing vignettes](pages/vignettes.html)
 - [Writing tests](pages/tests.html)
 - [Including datasets](pages/data.html)
 - [Including compiled code](pages/compiled.html)
+
+The following contains links to other resources:
+
 - [Further resources](pages/resources.html)
 
 If anything here is confusing (or _wrong_!), or if I've missed
 important details, please
 [submit an issue](https://github.com/kbroman/pkg_primer/issues), or (even
-better) fork [this repository](http://github.com/kbroman/pkg_primer),
+better) fork [the GitHub repository for this website](http://github.com/kbroman/pkg_primer),
 make modifications, and submit a pull request.
 
 ---
