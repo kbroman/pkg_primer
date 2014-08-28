@@ -7,4 +7,4 @@ title: Including compiled code
 
 ---
 
-Finally, go to the [resources page](pages/resources.html)
+Finally, go to the [resources page](pages/resources.html).

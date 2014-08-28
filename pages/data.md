@@ -7,4 +7,4 @@ title: Including datasets
 
 ---
 
-Now go to the page about [including compiled code](pages/compiled.html)
+Now go to the page about [including compiled code](pages/compiled.html).

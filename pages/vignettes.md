@@ -8,4 +8,4 @@ title: Writing vignettes
 
 ---
 
-Now go to the page about [writing tests](pages/tests.html)
+Now go to the page about [writing tests](pages/tests.html).

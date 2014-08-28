@@ -8,4 +8,4 @@ title: Writing tests
 
 ---
 
-Now go to the page about [including datasets](pages/data.html)
+Now go to the page about [including datasets](pages/data.html).
