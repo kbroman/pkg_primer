@@ -46,12 +46,8 @@ You can also run these checks from within R, using the
 [devtools](https://github.com/hadley/devtools) package.
 
 Start R within your package directory, load the devtools library with
-`library(devtools)` and then type
-
-    check()
-
-just as you had used `build()` and `install()` to build and install
-the package.
+`library(devtools)` and then type `check()`, just as you had used
+`build()` and `install()` to build and install the package.
 
 ---
 
