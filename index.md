@@ -7,17 +7,32 @@ tagline: a minimal tutorial
 R packages are the best way to distribute R code and documentation,
 and, despite the impression that the official manual
 ([Writing R Extensions](http://cran.r-project.org/doc/manuals/r-release/R-exts.html))
-might give, they are really are rather simple to create.
+might give, they really are quite simple to create.
 
-Even for code that you don't plan to distribute, you'll find it is
-easier to keep track of your own personal R functions if they are in a
-package. And it's good to write documentation, even if it's just for
-your future self.
+You should make an R package even for code that you don't plan to
+distribute. You'll find it is easier to keep track of your own
+personal R functions if they are in a package. And it's good to write
+documentation, even if it's just for your future self.
 
 [Hadley Wickham](http://had.co.nz/) is writing
 [a book about the basics of R packages](http://r-pkgs.had.co.nz/). You might just
-jump straight there. But there is value in having a diversity of
+jump straight there.
+
+[Hilary Parker](http://hilaryparker.com) wrote a
+[short and clear tutorial on writing R packages](http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/).
+If you want a crash course, you should start there. A lot of people
+have successfully built R packages from her instructions.
+
+But there is value in having a diversity of
 resources, so I thought I'd go ahead and write my own minimal tutorial.
+The following list of topics looks forbidding, but each is short and
+straightforward (and hopefully clear). If you're put off by the list
+of topics,
+and you've not already abandoned me in favor of
+[Hadley's book](http://r-pkgs.had.co.nz/), then why aren't you reading
+[Hilary's tutorial](http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)?
+
+If anyone's still with me, start with [the why](pages/why.html).
 
 **\[I'm just getting started with this, so there's not really much content here.\]**
 
