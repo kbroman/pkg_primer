@@ -15,7 +15,7 @@ Let's start with a simple example:
 
 To make this code into an R package, we just need to do two things:
 
-1. Create an `R/` subdirectory and move the code into that
+1. Create an `R` subdirectory and move the code into that
    subdirectory.
 2. Create a text file called `DESCRIPTION` containing the following:
 
@@ -79,8 +79,8 @@ just `major.minor`. You should probably follow
 Now, take a couple of your own R functions
 
 - make a directory for them
-- create an `R/` subdirectory
-- put your R functions into one or more `.R` files within the `R/` subdirectory
+- create an `R` subdirectory
+- put your R functions into one or more `.R` files within the `R` subdirectory
 - write a minimal `DESCRIPTION` file
 
 Then go to the page about [building and installing an R package](build.html).
