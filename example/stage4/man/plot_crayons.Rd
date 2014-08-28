@@ -31,4 +31,5 @@ Karl W Broman, \email{kbroman@biostat.wisc.edu}
 \seealso{
 \code{\link{brocolors}}
 }
+\keyword{hplot}
 

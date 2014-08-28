@@ -1,13 +1,15 @@
-# brocolors
 #' Vectors of colors for figures
 #'
 #' Creates different vectors of related colors that may be useful for figures.
 #'
 #' @param set Character string indicating a set of colors.
+#'
 #' @return Vector of character strings representing the chosen set of colors, in RGB.
-#' @export
+#'
 #' @author Karl W Broman, \email{kbroman@@biostat.wisc.edu}
 #' @seealso \code{\link{plot_crayons}}
+#' @keywords utilities
+#'
 #' @examples
 #' plot(0, 0, type="n", xlab="", ylab="", xlim=c(0, 9), ylim=c(7.5, 0), yaxs="i",
 #'      xaxt="n", yaxt="n", mar=c(0.6, 5.1, 0.6, 0.6), xaxs="i")
@@ -33,7 +35,9 @@
 #' text(seq(along=sex), rep(5.7, length(sex)), names(sex))
 #'
 #' points(1, 7, pch=21, bg=brocolors("main"), cex=4)
-#' @keywords utilities
+#'
+#' @export
+#'
 brocolors <-
 function(set=c("general", "bg", "bgpng", "CC", "f2", "sex", "main", "crayons"))
 {

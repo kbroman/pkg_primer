@@ -1,18 +1,25 @@
 #' Illustration of crayon colors
 #'
 #' Creates a plot of the crayon colors in \code{\link{brocolors}}
+#'
 #' @param method2order method to order colors (\code{"hsv"} or \code{"cluster"})
 #' @param cex character expansion for the text
 #' @param mar margin paramaters; vector of length 4 (see \code{\link[graphics]{par}})
+#'
 #' @return None
-#' @export
+#'
 #' @author Karl W Broman, \email{kbroman@@biostat.wisc.edu}
 #' @references \url{http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
 #' @seealso \code{\link{brocolors}}
-#' @importFrom grDevices rgb2hsv
-#' @importFrom graphics par plot rect text
+#' @keywords hplot
+#'
 #' @examples
 #' plot_crayons()
+#'
+#' @export
+#' @importFrom grDevices rgb2hsv
+#' @importFrom graphics par plot rect text
+#'
 plot_crayons <-
 function(method2order=c("hsv", "cluster"), cex=0.6, mar=rep(0.1, 4))
 {
