@@ -135,4 +135,4 @@ Windows users).
 
 ---
 
-Now go to the page about [getting your R package on CRAN](pages/cran.html).
+Now go to the page about [getting your R package on CRAN](cran.html).
