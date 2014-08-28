@@ -76,6 +76,32 @@ documentation), but you can now [build and install it with devtools](build.html)
 
 ### Documentation
 
+It's not a proper package until you've added documentation. The
+documentation will sit in a `man` subdirectory (`man` for
+&ldquo;manual&rdquo;), and has to be in a special `.Rd` (`Rd` for
+&ldquo;R documentation&rdquo;) format, with `.Rd` file for each
+function in the package.  The `.Rd` format is rather
+[LaTeX](http://www.latex-project.org/)-like and so ugly to prepare and
+maintain.
+
+_But_, you don't _have_ to create those `.Rd` files
+yourself. [Roxygen2](https://github.com/klutometis/roxygen) is an R
+package that makes it much easier to create R documentation for your
+R package. You write comments within your `.R` files, in a specially
+structured way, describing the inputs and outputs and so forth for
+each function, and then Roxygen2 will create the `.Rd` files for you.
+Roxygen2 will also create the `NAMESPACE` file for you.
+
+I'll [explain the use of Roxygen2 next](docs.html).
+
+### Software license
+
+And _actually_, there's one more thing (after the documentation) that
+you need to do before your package is _proper_. You need to pick a
+license for the software and specify the license in the `DESCRIPTION`
+file. This is, perhaps, an even more ugly topic than `NAMESPACE`
+files. I'll [explain it a bit later](licenses.html).
+
 
 ---
 
