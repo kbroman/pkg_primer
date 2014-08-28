@@ -40,7 +40,8 @@ own use, or to be shared with a friend.
 with the package name (`brocolors` in this case). This isn't strictly
 necessary, but it's confusing otherwise.
 
-In _my example_ I'm making several different versions of the package
+In [_my example_](https://github.com/kbroman/pkg_primer/tree/gh-pages/example),
+I'm making several different versions of the package
 directory, to illustrate the process of going from a minimal package
 to a proper package to a fully filled-out package. And so I'm calling
 the directory
