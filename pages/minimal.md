@@ -19,10 +19,8 @@ To make this code into an R package, we just need to do two things:
    subdirectory.
 2. Create a text file called `DESCRIPTION` containing the following:
 
-```
-Package: brocolors
-Version: 0.1
-```
+       Package: brocolors
+       Version: 0.1
 
 That is, you just need to give the package a name, like `brocolors`, and a
 version number, like `0.1`, and then put those pieces in a
