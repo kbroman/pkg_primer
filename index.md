@@ -50,6 +50,7 @@ The following (**not yet complete**) are important but not essential.
 - [Writing vignettes](pages/vignettes.html)
 - [Writing tests](pages/tests.html)
 - [Including datasets](pages/data.html)
+- [Connecting to other packages](pages/depends.html)
 - [Including compiled code](pages/compiled.html)
 
 The following contains links to other resources:
