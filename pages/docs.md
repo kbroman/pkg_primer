@@ -240,7 +240,14 @@ file, you'll see
 There's a lot more to `.Rd` files (and to Roxygen2) that I've left
 unmentioned but that you'll ultimately want to adopt in order to make
 comprehensive documentation.  The `@author`, `@references`,
-`@seealso`, and `@keywords` bits are useful but not necessary.
+`@seealso`, and `@keywords` bits are useful but not necessary, and
+this should be straightforward, except perhaps for the `\email{}`,
+`\url{}`, and `\code{\link{ }}`; those bits are from the `.Rd` format.
+
+(Note that in my email address here, I've doubled the `@`, so it's
+`kbroman@@biostat.wisc.edu`. Roxygen2 is looking for those `@`'s for
+its field names; if you want an actual `@`, you need to double it like
+this.)
 
 The `@importFrom` bits tell Roxygen2 to add certain extra things to
 the `NAMESPACE` file. I'd recommend also ignoring these for now.
