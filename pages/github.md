@@ -131,7 +131,46 @@ install it (e.g.,
 and [Rtools](http://cran.us.r-project.org/bin/windows/Rtools/) for
 Windows users).
 
-### Extra stuff to add to your R package
+### Put your R package on GitHub
+
+To put your package on [GitHub](http://github.com), you'll need to get
+a GitHub account. Then follow the instructions in my
+[git/github guide](http://kbroman.org) on
+[creating a new git repository](http://kbroman.org/github_tutorial/pages/init.html).
+In brief:
+
+- Change to the package directory
+- Initialize the repository with `git init`
+- Add and commit everything with `git add .` and `git commit`
+- Create a [new repository on GitHub](https://github.com/new)
+- Connect your local repository to the GitHub one
+
+      git remote add origin https://github.com/username/reponame
+
+- Push everything to github
+
+      git push -u origin master
+
+One thing extra you may want to add is a `README` file (or a
+[Markdown](https://help.github.com/articles/markdown-basics) version,
+`README.md`). This will show up nicely at your GitHub repository, below
+the list of files.
+
+[R](http://r-project.org) will largely ignore your
+`README`/`README.md` file. And it will also ignore the `.git`
+subdirectory that is created when you make the package a git
+repository.
+
+You may also want to create a website for your package. It's easy to
+do so with [GitHub Pages](https://pages.github.com/). For an example,
+see the
+[website for my R/qtlcharts package](http://kbroman.org/qtlcharts).
+You create an empty `gh-pages` branch for your package git repository
+and fill it will a website. GitHub makes it easy to use
+[Jekyll Bootstrap](http://jekyllbootstrap.com/) for the website, so
+you can write things in
+[Markdown](http://daringfireball.net/projects/markdown/) rather than
+HTML. See my [simple site](http://kbroman.org/simple_site) tutorial.
 
 ---
 
