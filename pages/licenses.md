@@ -87,14 +87,14 @@ changing the copyright date).
 
 Then, in your `DESCRIPTION` file, include the following line.
 
-    License: MIT + LICENSE
+    License: MIT + file LICENSE
     
 The all caps `LICENSE` in that line is the name of the file (within
 your package) with the license text. You could call it `License.txt`
 if you want. In this case, the relevant line in your `DESCRIPTION`
 file should be the following.
 
-    License: MIT + License.txt
+    License: MIT + file License.txt
 
 With this, our package looks
 [like this](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage5)
