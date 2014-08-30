@@ -170,7 +170,9 @@ and fill it will a website. GitHub makes it easy to use
 [Jekyll Bootstrap](http://jekyllbootstrap.com/) for the website, so
 you can write things in
 [Markdown](http://daringfireball.net/projects/markdown/) rather than
-HTML. See my [simple site](http://kbroman.org/simple_site) tutorial.
+HTML. See my [simple site](http://kbroman.org/simple_site) tutorial
+&ndash; particularly the page on
+[making a project site](http://kbroman.org/simple_site/pages/project_site.html).
 
 ---
 
