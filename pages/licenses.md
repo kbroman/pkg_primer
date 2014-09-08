@@ -50,6 +50,23 @@ videos, **but not software**. As
 Use CC licenses for your lecture notes, slides, and articles, but not
 for your software.
 
+### What about CC0?
+
+[CC0](http://creativecommons.org/publicdomain/zero/1.0/) (public
+domain) seems appropriate for software: you're just saying that anyone
+can do anything with the code.
+
+But in some states (e.g., Maryland, I think), software is treated as a
+&ldquo;good&rdquo; (like a car), and so if your code causes something
+terrible to happen, you could be sued for damages. Using a lenient
+license, like the
+[MIT license](http://en.wikipedia.org/wiki/MIT_License), eliminates
+that potential problem through the &ldquo;no warranty&rdquo; clause.
+
+So, use [CC0](http://creativecommons.org/publicdomain/zero/1.0/) for
+your lecture notes, slides, and web sites, but use a lenient license,
+like the [MIT license](http://en.wikipedia.org/wiki/MIT_License), for
+your software.
 
 ### Indicating your choice in your package
 
