@@ -56,7 +56,7 @@ make it much smaller and to make subsequent commands faster. You can
 also use `\donttest{}`, which prevents a command from being run during
 the tests, but still has the command run during a call to `example()`
 (which enables a user to run all of the examples for a function).
-`R CMD check --as-check` and `devtools::check()` will give warnings
+`R CMD check --as-cran` and `devtools::check()` will give warnings
 about examples that take more than a few seconds to run.
 
 5. Check your package on as many systems as you can. If you have
