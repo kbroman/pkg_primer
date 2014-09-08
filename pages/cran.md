@@ -59,11 +59,18 @@ the tests, but still has the command run during a call to `example()`
 `R CMD check --as-check` and `devtools::check()` will give warnings
 about examples that take more than a few seconds to run.
 
-5. Submit your package at the beginning of a week in which you don't
+5. Check your package on as many systems as you can. If you have
+access to a Unix server, run `R CMD check --as-cran` there; if you
+have access to Windows and Mac computers, do the same on both. If you
+have no access to a Windows computer, you can submit your package to
+the <http://win-builder.r-project.org> to build and check your package
+on Windows.
+
+6. Submit your package at the beginning of a week in which you don't
 have many commitments. If CRAN finds problems in your package, you'll
 want to have some time to make changes and resubmit.
 
-6. Instructions on how to submit your package to CRAN are at the bottom
+7. Instructions on how to submit your package to CRAN are at the bottom
 of the [CRAN front page](http://cran.r-project.org/),
 &ldquo;Submitting to CRAN.&rdquo; Submission is now via a
 [web form](http://xmpalantir.wu.ac.at/cransubmit/).  If this process
@@ -73,7 +80,7 @@ package to <ftp://CRAN.R-project.org/incoming> and send an emai to
 sure to mention that you've read and agree to the
 [CRAN policies](http://cran.r-project.org/web/packages/policies.html).
 
-7. Finally, _put on your armor_. One of the people that handles CRAN
+8. Finally, _put on your armor_. One of the people that handles CRAN
 submissions can be unnecessarily offensive and pedantic. Try to
 put his little barbs our of your mind and focus on his actual advice
 on how to revise your package to make it suitable for CRAN.
