@@ -42,7 +42,7 @@ To keep up-to-date with changes, look at
 or follow [@CRANPolicyWatch](https://twitter.com/CRANPolicyWatch) on
 twitter.
 
-3. While I've said that the official manual on R packages,
+3. While the official manual on R packages,
 [Writing R Extensions](http://cran.r-project.org/doc/manuals/r-release/R-exts.html),
 is rough going, it would probably be a good idea to read through it
 before attempting to submit your package to CRAN.
