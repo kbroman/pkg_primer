@@ -82,7 +82,7 @@ sure to mention that you've read and agree to the
 
 8. Finally, _put on your armor_. One of the people that handles CRAN
 submissions can be unnecessarily offensive and pedantic. Try to
-put his little barbs our of your mind and focus on his actual advice
+put his little barbs out of your mind and focus on his actual advice
 on how to revise your package to make it suitable for CRAN.
 
 ---
