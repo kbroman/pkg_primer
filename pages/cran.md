@@ -81,9 +81,20 @@ sure to mention that you've read and agree to the
 [CRAN policies](http://cran.r-project.org/web/packages/policies.html).
 
 8. Finally, _put on your armor_. One of the people that handles CRAN
-submissions can be unnecessarily offensive and pedantic. Try to
-put his little barbs out of your mind and focus on his actual advice
-on how to revise your package to make it suitable for CRAN.
+submissions can be unnecessarily offensive and pedantic. Try to put
+his little barbs out of your mind and focus on his actual advice on
+how to revise your package to make it suitable for CRAN.  (Please
+don't be put off by CRAN from this
+comment. [Many](https://twitter.com/timtriche/status/509144278648381440)
+[people](https://twitter.com/KasperDHansen/status/509119291716030464)'s
+[experiences](https://twitter.com/ucfagls/status/509045370588889089)
+are entirely positive. And you can't expect yourself to have memorized
+the entire
+[Writing R Extensions manual](http://cran.r-project.org/doc/manuals/r-release/R-exts.html)
+nor kept track of all changes to the
+[CRAN policy](http://cran.r-project.org/web/packages/policies.html). So
+if limitations in your understanding are bluntly pointed out, just
+learn from that, revise your package, and resubmit.)
 
 ---
 
