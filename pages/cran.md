@@ -30,8 +30,8 @@ you want to get your package in order before you submit.
 
 1. Run `R CMD check --as-cran` and eliminate _all_
 problems. If there are any errors or warnings, your package will not
-be accepted at CRAN. But even a &ldquo;Note&rdquo; may disqualify
-you. So figure out what all of those errors and warnings mean and then
+be accepted at CRAN. And even a &ldquo;Note&rdquo; will likely disqualify
+you. So figure out what all of those errors, warnings, and notes mean and then
 revise your package so that they are no longer issued.
 
 2. Read the
@@ -64,11 +64,14 @@ access to a Unix server, run `R CMD check --as-cran` there; if you
 have access to Windows and Mac computers, do the same on both. If you
 have no access to a Windows computer, you can submit your package to
 the <http://win-builder.r-project.org> to build and check your package
-on Windows.
+on Windows. You can use `build_win()` in the
+[devtools package](https://github.com/hadley/devtools) for this.
 
 6. Submit your package at the beginning of a week in which you don't
 have many commitments. If CRAN finds problems in your package, you'll
-want to have some time to make changes and resubmit.
+want to have some time to make changes and
+resubmit. ([Not everyone agrees with me](https://twitter.com/_inundata/status/509379592830722048)
+on this point.)
 
 7. Instructions on how to submit your package to CRAN are at the bottom
 of the [CRAN front page](http://cran.r-project.org/),
@@ -76,7 +79,8 @@ of the [CRAN front page](http://cran.r-project.org/),
 [web form](http://xmpalantir.wu.ac.at/cransubmit/).  If this process
 fails, you can go back to the &ldquo;old&rdquo; method: upload your
 package to <ftp://CRAN.R-project.org/incoming> and send an emai to
-<cran@r-project.org>. The email should be carefully phrased, and be
+<cran@r-project.org>. The email should be carefully phrased (and must
+be sent as `plain text`!). Be
 sure to mention that you've read and agree to the
 [CRAN policies](http://cran.r-project.org/web/packages/policies.html).
 
