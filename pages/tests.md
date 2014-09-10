@@ -16,6 +16,12 @@ title: Writing tests
 
 - travis CI and `devtools:add_travis()`
 
+- When you find a bug, first write a test and then fix the bug.
+  - before fixing the bug, you want to be able to reproduce it. You
+    should capture that effort as a formal test.
+  - having the test formalized will help you to assess whether you've
+    fixed the problem
+
 ---
 
 Now go to the page about [including datasets](data.html).
