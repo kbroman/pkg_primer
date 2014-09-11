@@ -80,6 +80,17 @@ available when the package is loaded; there'll be no need to use
 `data()`. The data isn't actually _loaded_ into R until you use it
 (that's what &ldquo;lazy load&rdquo; means.
 
+Okay, one _more_ thing: you can also include R code (in a `.R` file)
+in the `data` directory, and also tabular data as `.txt` or `.csv`
+files. (See
+[Data in packages](http://cran.r-project.org/doc/manuals/r-release/R-exts.html#Data-in-packages)
+in the
+[Writing R Extensions manual](http://cran.r-project.org/doc/manuals/r-release/R-exts.html).)
+An advantage to this is that the data could be viewed on
+[GitHub](http://github.com], if you
+[put your package there](github.html). And you might use such `.txt`
+or `.csv` files to demonstrate file formats and how to load data into R.
+
 ---
 
 Now go to the page about [connecting to other R packages](depends.html).
