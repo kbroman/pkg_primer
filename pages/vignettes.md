@@ -20,7 +20,7 @@ your vignette in [LaTeX](http://www.latex-project.org/) (with
 
 [Markdown](http://daringfireball.net/projects/markdown/) is a light
 mark-up language that's much like what you'd write in an email, using
-`_underscrores_` or `**astericks**` for emphasis and so
+`_underscores_` or `**asterisks**` for emphasis and so
 forth. [R Markdown](http://rmarkdown.rstudio.com/) is an extension of
 Markdown to include chunks of R code. An R Markdown document (with a
 `.Rmd` extension) is compiled (with knitr) to a Markdown document
