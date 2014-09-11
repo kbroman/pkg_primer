@@ -25,30 +25,167 @@ The simplest (but most crude) tests are the examples in your
 giving the right answers. You're just notified if the code produces
 errors.
 
-- Also examples, run by `R CMD check`. Be careful about how much time
-  they take. Use `\dontrun{}`, `\dontshow{}`, and `\donttest{}`.
+As mentioned in the page on [getting your package on CRAN](cran.html),
+your examples should be quick to run. On
+[CRAN](http://cran.r-project.org), every package is tested daily on
+multiple systems.
+
+You might subset a dataset so that the subsequent
+code is much faster; you could put such code with `\dontshow{ }`, so
+that it will be run when the examples are run but won't be shown to
+the user. Computationally intensive code could also be placed in
+`\dontrun{ }` or `\donttest{ }`. Code in `\dontrun{ }` will never be
+run automatically; code in `\donttest{ }` will be run when a user
+calls `example( )` but won't be run with `R CMD check`. Of course, a
+disadvantage of `\dontrun{ }` and `\donttest{ }` is that then the code
+_won't_ be tested automatically.
 
 ### [testthat](https://github.com/hadley/testthat) package
 
-For proper tests, in which you assess whether your code is giving the
-correct answers, use the
-[testthat](https://github.com/hadley/testthat) package. You're best
-off reading the section in Hadley's [book on R packages](), but let me
+For proper tests, in which you actually assess whether your code is
+giving the correct answers, use the
+[testthat](https://github.com/hadley/testthat) package. You'd be best
+off reading [the testing section](http://r-pkgs.had.co.nz/tests.html)
+in Hadley's [book on R packages](http://r-pkgs.had.co.nz/), but let me
 give a brief synopsis with a few examples.
 
-- [testthat](https://github.com/hadley/testthat) package
+Create a subdirectory `tests` and within that create another
+subdirectory `testthat` plus a file `testthat.R` containing the
+following code:
 
-### Travis CI
+    library(testthat)
+    test_check("put_your_package_name_here")
 
-- travis CI and `devtools:add_travis()`
+Then, within the `tests/testthat/` directory, put a bunch of files
+like `test-something.R` containing code to be run by the testthat
+package. This code will be run with `R CMD check`, or also with
+`devtools::test()`. (Generally, you'd load devtools with
+`library(devtools)` and type `test()`.)
+
+Here's a portion of the
+[`test-runningmean.R`](https://github.com/kbroman/broman/blob/master/tests/testthat/test-runningmean.R)
+file from my [R/broman](https://github.com/kbroman/broman) package.
+
+    context("running mean")
+
+    test_that("running mean stops when it should", {
+
+      expect_error( runningmean(0, c(0,0)) )
+
+    })
+
+    test_that("running mean with constant x or position", {
+
+      n <- 100
+      x <- rnorm(n)
+      pos <- rep(0, n)
+      expect_equal( runningmean(pos, x, window=1), rep(mean(x), n) )
+
+      mu <- mean(x)
+      x <- rep(mu, n)
+      pos <- runif(n, 0, 5)
+      expect_equal( runningmean(pos, x, window=1), x)
+
+    })
+
+Begin each `test-blah.R` file a with call to context; the string here
+will be printed in the output of `test()`. Follow this with a series
+of calls to `test_that()`, each containing a group of related
+tests. Each of these calls has a character string and then a bunch of
+code within `{ }`. That code will be much like what one always writes
+in typical informal tests: run a bit of code with known result, and
+then check if the result actually matches that expected.
+
+The testthat package includes a number of helper functions for
+checking whether results match expectation.
+
+- `expect_error()` if the code should throw an error
+- `expect_warning()` if the code should throw a warning
+- `expect_equal(a, b)` if `a` and `b` should be the same (up to
+  numeric tolerance)
+- `expect_equivalent(a, b)` if `a` and `b` should contain the same
+  values but may have different attributes (e.g., `names` and `dimnames`)
+
+There are a number of others.
+
+When you run `devtools::test()`, you'll get output like this:
+
+    Testing broman
+    Loading broman
+    running mean : ........
+    winsorize : ......
+
+Each dot indicates a test that passed. If there are failures, there'll
+be a bunch of output indicating what failed and how.
+
+When you write a new function for your package, write some tests, and
+then put them within a call to `testthat()` within a file in
+`tests/testthat/`.
 
 ### When you find a bug, write a test
 
-- When you find a bug, first write a test and then fix the bug.
-  - before fixing the bug, you want to be able to reproduce it. You
-    should capture that effort as a formal test.
-  - having the test formalized will help you to assess whether you've
-    fixed the problem
+If you find a bug in your package, the first thing you should do is
+write a test for it: write some code that reproduces the problem,
+either by throwing an error or by giving results that you know are
+incorrect. Don't start working to fix the bug until _after_ you've
+written the test!
+
+If you don't have test code that demonstrates the bug, how will you
+know that you've really fixed it? And if you take the time to write
+test code for the bug, you should add that to your battery of tests.
+
+Find a bug, write a test, and _then_ fix the bug.
+
+### Automated testing with [Travis CI](http://travis-ci.org)
+
+If you poke around [GitHub](http://github.com), you'll often see R
+packages whose ReadMe files contain badges like this:
+
+[![Build Status](https://travis-ci.org/kbroman/broman.png?branch=master)](https://travis-ci.org/kbroman/broman)
+
+The package author is using the [Travis CI](http://travis-ci.org) site
+to test their package whenever they push changes to
+[GitHub](http://github.com). This is an example of what's called
+[Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
+(that's the &ldquo;CI&rdquo; in &ldquo;Travis-CI&rdquo;):
+after every change, the package is automatically built and tested.
+
+This is another great reason to place your package on GitHub. And use
+of [Travis CI](http://travis-ci.com) is remarkably easy to set up,
+particularly with the [devtools](http://github.com/hadley/devtools)
+function `add_travis()`.
+
+If you invoke R within your package directory, `add_travis()` will add
+a file `.travis.yml` with the relevant information for Travis CI, and
+then will add that file name to the `.Rbuildignore` file, so that `R
+CMD build` will ignore it.
+
+You then need to sign in to [Travis CI](http://travis-ci.com) with
+your GitHub account, giving it limited access to your GitHub
+repositories. Then select which of your repositories you want Travis
+CI to monitor and test. That's it. Whenever you push to GitHub, Travis
+CI will grab the package, build it, run `R CMD check`, and send you an
+email with a message about whether it worked or not.
+
+The final step: add a bit of code like the following to the ReadMe
+file for your package:
+
+    [![Build Status](https://travis-ci.org/user/pkg.png?branch=master)](https://travis-ci.org/user/pkg)
+
+Replace `user` with your GitHub user name and `pkg` with the name of
+your package repository.
+
+That will give you the little badge shown above (showing either
+&ldquo;passing&rdquo; or &ldquo;failing&rdquo;).
+
+You'll want to be careful to not push to GitHub too often, as _every_
+push will cause Travis to build and check your package.
+
+If you _know_ that you want Travis CI to
+[skip a build](http://docs.travis-ci.com/user/how-to-skip-a-build/)
+(e,g, you've just edited the ReadMe file), include `[ci skip]` or
+`[skip ci]` anywhere in the commit message.
+
 
 ---
 
