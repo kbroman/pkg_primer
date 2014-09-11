@@ -24,7 +24,7 @@ mark-up language that's much like what you'd write in an email, using
 forth. [R Markdown](http://rmarkdown.rstudio.com/) is an extension of
 Markdown to include chunks of R code. An R Markdown document (with a
 `.Rmd` extension) is compiled (with knitr) to a Markdown document
-(replacing R code with its results, eg graphics), which is then
+(replacing R code with its results, e.g. graphics), which is then
 converted to an HTML document, to be viewed in a web browser. For more
 on knitr and Markdown, see my
 [knitr in a knutshell tutorial](http://kbroman.org/knitr_knutshell).
