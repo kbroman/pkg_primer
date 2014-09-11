@@ -10,12 +10,12 @@ on his [testthat](https://github.com/hadley/testthat) package:
 > It's not that we don't test our code, it's that we don't
 > store our tests so they can be re-run automatically.
 
-How do you know that the code you write works? You try it out. How do
-you know that your code still works a year later? Well, ideally you
-saved those initial tests; even better, you don't just save them, but
-you structure them in a way that you'll be running them
-regularly. This will give you confidence that later changes haven't
-broken things that worked.
+How do you know that the code you write works? You tried it out. How
+do you know that your code still works a year later? Well, ideally you
+saved those initial tests; even better, you didn't just save them, but
+you structured them in a way that you could run them regularly. This
+gives you confidence that later changes haven't broken things that
+worked.
 
 ### `R CMD check`
 
