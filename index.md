@@ -68,6 +68,6 @@ The source for this tutorial is [on github](http://github.com/kbroman/pkg_primer
 
 Also see my
 [git/github guide](http://kbroman.org/github_tutorial) and
-[knitr in a knutshell tutorial](http://kbroman.org/knitr_knutshell),
-[minimal make tutorial](http://kbroman.org/minimal_make),
-and [simple site tutorial](http://kbroman.org/simple_site).
+[knitr in a knutshell](http://kbroman.org/knitr_knutshell),
+[minimal make](http://kbroman.org/minimal_make),
+and [simple site](http://kbroman.org/simple_site) tutorials.
