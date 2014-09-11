@@ -43,7 +43,7 @@ making an R package.
 - [Software licenses](pages/licenses.html)
 - [Checking an R package](pages/check.html)
 
-The following (**not yet complete**) are important but not essential.
+The following are important but not essential.
 
 - [Putting it on GitHub](pages/github.html)
 - [Getting it on CRAN](pages/cran.html)
@@ -51,7 +51,6 @@ The following (**not yet complete**) are important but not essential.
 - [Writing tests](pages/tests.html)
 - [Including datasets](pages/data.html)
 - [Connecting to other packages](pages/depends.html)
-- [Including compiled code](pages/compiled.html)
 
 The following contains links to other resources:
 

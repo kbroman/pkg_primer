@@ -151,4 +151,4 @@ installable. Packages in `Suggests` don't _need_ to be available.
 
 ---
 
-Now go to the page about [including compiled code](compiled.html).
+Finally, go to the [resources page](resources.html).
