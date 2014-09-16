@@ -34,7 +34,6 @@ for the dataset `grav` in my
     #' Cvi). The outcome is the root tip angle (in degrees) at two-minute
     #' increments over eight hours.
     #'
-    #' @name grav
     #' @docType data
     #'
     #' @usage data(grav)
@@ -53,15 +52,12 @@ for the dataset `grav` in my
     #' times <- attr(grav, "time")
     #' phe <- grav$pheno
     #' \donttest{iplotCurves(phe, times)}
-    NULL
+    "grav"
 
-This is much like documenting a function, but we need to be explicit
-about `@name` (included here just after the description), and we also include
-`@docType data` and `@usage data(grav)`.
-
-The line at the bottom, `NULL`, doesn't really do anything but is
-necessary for Roxygen2, which needs to connect the documentation to
-some R object.
+This is much like documenting a function, but we need to include
+`@docType data` and `@usage data(grav)`, and where the function
+definition would ordinarily go, we just include a line with the
+name of the dataset as a character string.
 
 You'll want to describe the `@format` of the data, and it's good to
 include the `@source` (where you got it) and `@references`. And
