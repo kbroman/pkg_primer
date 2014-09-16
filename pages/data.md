@@ -27,14 +27,14 @@ for the dataset `grav` in my
 [R/qtlcharts](http://kbroman.org/qtlcharts) package; see
 [`grav-data.R`](http://github.com/kbroman/qtlcharts/blob/master/R/grav-data.R).
 
-    #' @name grav
-    #' @title Arabidopsis QTL data on gravitropism
+    #' Arabidopsis QTL data on gravitropism
     #'
-    #' @description Data from a QTL experiment on gravitropism in
+    #' Data from a QTL experiment on gravitropism in
     #' Arabidopsis, with data on 162 recombinant inbred lines (Ler x
     #' Cvi). The outcome is the root tip angle (in degrees) at two-minute
     #' increments over eight hours.
     #'
+    #' @name grav
     #' @docType data
     #'
     #' @usage data(grav)
@@ -56,7 +56,7 @@ for the dataset `grav` in my
     NULL
 
 This is much like documenting a function, but we need to be explicit
-about `@name`, `@title`, and `@description`, and we also include
+about `@name` (included here just after the description), and we also include
 `@docType data` and `@usage data(grav)`.
 
 The line at the bottom, `NULL`, doesn't really do anything but is
