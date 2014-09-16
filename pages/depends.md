@@ -66,7 +66,8 @@ package.
 If, on the other hand, you're just using one or two functions, I'd use
 `@importFrom` to import just the particular functions. 
 
-And I'm inclined to still use the `::` operator, mostly for clarity:
+And probably it's best to skip the whole `@import` and `@importFrom`
+technique and just use the `::` operator, particularly for clarity:
 `jsonlite::unbox( )` makes it clear that `unbox` is not part of the
 present package but is part of
 [jsonlite](https://github.com/jeroenooms/jsonlite).
@@ -117,9 +118,10 @@ Note the `Depends`, `Imports`, and `Suggests` lines.
   with `@import`.)
 
 - `Imports` is used for packages that are needed by your package but
-  that don't need to be loaded with `library()`. Packages referred
-  to in `@import` or `@importFrom` statements in your Roxygen2
-  comments should be here.
+  that don't need to be loaded with `library()`. Packages referred to
+  in `@import` or `@importFrom` statements in your Roxygen2 comments,
+  or whose functions are accessed via the `::` operator, should be
+  here.
 
 - `Suggests` is for packages that aren't really necessary, but that
   you're using in your examples, vignettes, or tests. Any
@@ -139,8 +141,8 @@ A package should appear in just _one_ of these four sections
 (`Depends`, `Imports`, `Suggests`, and `Enhances`).
 
 - If you need to attach the package with `library()`: **`Depends`**
-- If you use functions from the package (`@import` or `@importFrom`) but don't
-  need to use `library()`: **`Imports`**
+- If you use functions from the package (`::`, `@import`, or
+  `@importFrom`) but don't need to use `library()`: **`Imports`**
 - If it's not used in the code but is used in examples, vignettes, or tests:
   **`Suggests`**
 - Otherwise maybe `Enhances`
