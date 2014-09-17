@@ -22,7 +22,7 @@ So, [pick a license, any license](http://blog.codinghorror.com/pick-a-license-an
 
 There are
 [lots of different software licenses](https://tldrlegal.com/) to
-choose from. That's part of why this such a painful topic. (That they are almost
+choose from. That's part of why this is such a painful topic. (That they are almost
 all really boring to read is another part of the pain. The
 [WTFPL](http://www.wtfpl.net/) is one of the few that is not boring.)
 
@@ -41,7 +41,7 @@ otherwise.
 An important thing to remember: **don't use a
 [Creative Commons](http://creativecommons.org/) (CC) license for
 software**. Creative Commons licenses (like [CC-BY](http://creativecommons.org/licenses/by/3.0/))
-are great things, but they're for things like articles, books, and
+are great, but they're for things like articles, books, and
 videos, **but not software**. As
 [they say in their FAQ](https://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F):
 
