@@ -96,25 +96,44 @@ recommend going with the MIT license.
 Unfortunately, and for reasons that I don't understand, the R Core
 considers the MIT license to be not a proper license but rather a
 _template_ for a license. And so if you want to use the MIT license,
-they want you to include a `LICENSE` file in your package that
-includes the text of the actual license. You need a file
-[like this](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage5/LICENSE),
-but replacing &ldquo;Karl Broman&rdquo; with your name (and also
-changing the copyright date).
+you must include a `LICENSE` file in your package that
+includes just two lines, like this:
+
+    YEAR: 2014
+    COPYRIGHT HOLDER: Karl W Broman
+
+See <http://www.r-project.org/Licenses/MIT>.
+
+Personally, I think it is a bit confusing to have a `LICENSE` file
+that doesn't actually mention the license. So despite the
+instructions, I'd suggest including a third line with a link to the
+MIT license &ldquo;template,&rdquo; like this:
+
+    See http://www.r-project.org/Licenses/MIT
+
+So
+[here's my suggestion of an example `LICENSE` file](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage5/LICENSE),
+if you're going to use the MIT license.
 
 Then, in your `DESCRIPTION` file, include the following line.
 
     License: MIT + file LICENSE
     
 The all caps `LICENSE` in that line is the name of the file (within
-your package) with the license text. You could call it `License.txt`
-if you want. In this case, the relevant line in your `DESCRIPTION`
-file should be the following.
+your package) with the text about year and copyright holder. You can
+also call the file `LICENCE` if you want. In this case, the relevant
+line in your `DESCRIPTION` file should be the following.
 
-    License: MIT + file License.txt
+    License: MIT + file LICENCE
+    
+(I'd thought that you could use a different name for the file, for
+example `License.txt`, but the
+[Writing R Extensions manual](http://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing)
+seems pretty explicit that the file should be either `LICENSE` or
+`LICENCE`.)
 
 With this, our package looks
-[like this](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage5)
+[like this](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage5),
 and it is now a _proper R package_.
 
 ---
