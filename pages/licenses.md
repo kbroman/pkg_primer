@@ -96,24 +96,14 @@ recommend going with the MIT license.
 Unfortunately, and for reasons that I don't understand, the R Core
 considers the MIT license to be not a proper license but rather a
 _template_ for a license. And so if you want to use the MIT license,
-you must include a `LICENSE` file in your package that
-includes just two lines, like this:
+you must include a `LICENSE` file in your package that includes just
+two lines,
+like this ([example here](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage5/LICENSE)):
 
     YEAR: 2014
     COPYRIGHT HOLDER: Karl W Broman
 
-See <http://www.r-project.org/Licenses/MIT>.
-
-Personally, I think it is a bit confusing to have a `LICENSE` file
-that doesn't actually mention the license. So despite the
-instructions, I'd suggest including a third line with a link to the
-MIT license &ldquo;template,&rdquo; like this:
-
-    See http://www.r-project.org/Licenses/MIT
-
-So
-[here's my suggestion of an example `LICENSE` file](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage5/LICENSE),
-if you're going to use the MIT license.
+See the license template at <http://www.r-project.org/Licenses/MIT>.
 
 Then, in your `DESCRIPTION` file, include the following line.
 
