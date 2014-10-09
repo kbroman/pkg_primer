@@ -148,7 +148,7 @@ The package author is using the [Travis CI](http://travis-ci.org) site
 to test their package whenever they push changes to
 [GitHub](http://github.com). This is an example of what's called
 [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
-(that's the &ldquo;CI&rdquo; in &ldquo;Travis-CI&rdquo;):
+(that's the &ldquo;CI&rdquo; in &ldquo;Travis CI&rdquo;):
 after every change, the package is automatically built and tested.
 
 This is another great reason to place your package on GitHub. And use
@@ -184,8 +184,12 @@ push will cause Travis to build and check your package.
 
 If you _know_ that you want Travis CI to
 [skip a build](http://docs.travis-ci.com/user/how-to-skip-a-build/)
-(e,g, you've just edited the ReadMe file), include `[ci skip]` or
+(e.g., you've just edited the ReadMe file), include `[ci skip]` or
 `[skip ci]` anywhere in the commit message.
+
+**Note**: [L. Collado Torres](http://biostat.jhsph.edu/~lcollado/) has written a
+[much more detailed protocol](http://jtleek.com/protocols/travis_bioc_devel)
+on Travis for R packages. It's a very useful read!
 
 
 ---
