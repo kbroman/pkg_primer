@@ -33,7 +33,7 @@ Believe it or not, _that's all you need to have a working R package!_
 Note that the R code can be all in one file or split across many files
 (e.g., you could have one function in each file, as here). I'd
 suggest leaning towards many small files. A
-[4000+ line `util.R` file is unwieldy](https://github.com/kbroman/qtl/blob/master/R/util.R)
+[4000+ line `util.R` file is unwieldy](https://github.com/kbroman/qtl/blob/master/R/util.R).
 
 It's not a [_proper_](proper.html) R package. You need to fill out the `DESCRIPTION`
 file a bit and add some documentation. (Also, you need a `NAMESPACE`
