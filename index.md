@@ -67,7 +67,8 @@ make modifications, and submit a pull request.
 The source for this tutorial is [on github](http://github.com/kbroman/pkg_primer).
 
 Also see my
-[git/github guide](http://kbroman.org/github_tutorial) and
+[git/github guide](http://kbroman.org/github_tutorial),
 [knitr in a knutshell](http://kbroman.org/knitr_knutshell),
 [minimal make](http://kbroman.org/minimal_make),
-and [simple site](http://kbroman.org/simple_site) tutorials.
+and [simple site](http://kbroman.org/simple_site) tutorials,
+and [initial steps towards reproducible research](http://kbroman.org/steps2rr).
