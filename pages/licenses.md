@@ -36,7 +36,7 @@ licensed under the GPL. So I use the GPL _if I have to_ (that is, if
 I've incorporated others' GPL code), and I use the MIT license
 otherwise.
 
-### Don't use a Creative Commons license
+### Don't use a Creative Commons license for software
 
 An important thing to remember: **don't use a
 [Creative Commons](http://creativecommons.org/) (CC) license for
