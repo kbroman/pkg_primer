@@ -108,14 +108,14 @@ See the license template at <http://www.r-project.org/Licenses/MIT>.
 Then, in your `DESCRIPTION` file, include the following line.
 
     License: MIT + file LICENSE
-    
+
 The all caps `LICENSE` in that line is the name of the file (within
 your package) with the text about year and copyright holder. You can
 also call the file `LICENCE` if you want. In this case, the relevant
 line in your `DESCRIPTION` file should be the following.
 
     License: MIT + file LICENCE
-    
+
 (I'd thought that you could use a different name for the file, for
 example `License.txt`, but the
 [Writing R Extensions manual](http://cran.r-project.org/doc/manuals/r-release/R-exts.html#Licensing)
