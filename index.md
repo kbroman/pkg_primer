@@ -2,6 +2,7 @@
 layout: page
 title: R package primer
 tagline: a minimal tutorial
+description: A minimal tutorial on how to make an R package.
 ---
 
 R packages are the best way to distribute R code and documentation,
