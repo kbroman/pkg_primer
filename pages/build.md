@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Building and installing an R package
+description: How to build and install an R package
 ---
 
 You now have the raw materials for a simple R package. Next you need
