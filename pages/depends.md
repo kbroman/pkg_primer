@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Connecting to other packages
+description: How to use (and document usage of) functions from other R
+             packages within your R package
 ---
 
 Generally, your R package will make use of functions in other R
@@ -64,7 +66,7 @@ ahead and use `@import` and import the entire namespace of the other
 package.
 
 If, on the other hand, you're just using one or two functions, I'd use
-`@importFrom` to import just the particular functions. 
+`@importFrom` to import just the particular functions.
 
 And probably it's best to skip the whole `@import` and `@importFrom`
 technique and just use the `::` operator, particularly for clarity:

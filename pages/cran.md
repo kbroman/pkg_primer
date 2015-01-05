@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Getting your R package on CRAN
+description: How to get your R package onto the Comprehensive R
+             Archive Network (CRAN)
 ---
 
 The

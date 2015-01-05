@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Writing documentation with Roxygen2
+description: How to write documentation for an R package
 ---
 
 To add documentation to an R package, you need to create a

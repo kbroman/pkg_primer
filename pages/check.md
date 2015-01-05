@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Checking an R package
+description: How to run checks on an R package
 ---
 
 If you'd never previously written an R package, then you've probably never used

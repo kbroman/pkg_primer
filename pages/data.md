@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Including datasets
+description: How to include datasets in an R package
 ---
 
 It can be useful to include example datasets in your R package, to use
