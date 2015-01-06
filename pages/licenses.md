@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Software licenses
+description: Choose a license for your R package
 ---
 
 The last thing you need to do before your package is a _proper_ R

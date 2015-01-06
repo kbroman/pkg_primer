@@ -1,6 +1,8 @@
 ---
 layout: page
 title: The minimal R package
+description: First page on how to write an R package: constructing the
+             simplest possible R package.
 ---
 
 Let's start with a simple example:

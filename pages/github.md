@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Putting your R package on GitHub
+description: How to put your R package on GitHub
 ---
 
 This page will be more motivational than instructional, but there's
