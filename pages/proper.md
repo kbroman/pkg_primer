@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Making it a proper package
+description: How to turn a very basic R package into a proper
+             package.
 ---
 
 We created a usable package by just

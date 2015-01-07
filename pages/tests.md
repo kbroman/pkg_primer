@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Writing tests
+description: How to write tests for the code in an R package.
 ---
 
 Hadley Wickham said it best, in

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Writing vignettes
+description: How to write vignettes to document an R package.
 ---
 
 It's important to write good and clear [documentation](docs.html), but

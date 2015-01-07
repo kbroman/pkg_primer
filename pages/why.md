@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Why write an R package?
+description: Reasons to write an R package.
 ---
 
 R packages and the

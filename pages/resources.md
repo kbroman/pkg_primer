@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Further resources
+description: Resources on constructing R packages.
 ---
 
 - [Hilary Parker](http://hillaryparker.com)'s
