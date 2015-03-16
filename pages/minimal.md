@@ -75,7 +75,7 @@ easier for me to define colors for graphs I make for lectures and papers.
 Regarding version numbers: I number things like
 `major.minor-revision` as I learned from [Venables and Ripley](http://www.amazon.com/exec/obidos/ASIN/1441930086/7210-20)'s
 [MASS package](http://cran.r-project.org/web/packages/MASS/index.html).
-[Yihui Xie](http://yihui.name/) recommends `major.minor-patch`, but having releases be
+[Yihui Xie](http://yihui.name/) recommends `major.minor.patch`, but having releases be
 just `major.minor`. You should probably follow
 [Yihui's recommendation](http://yihui.name/en/2013/06/r-package-versioning/).)
 
