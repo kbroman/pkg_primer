@@ -76,9 +76,7 @@ Then, to _build_ the package, type
 This will create the `brocolors_0.1.tar.gz` file.
 
 **Note**: If your R working directory is something other than your package directory, you
-could specify the location of your package in the call to `build`, like so:
-
-    build("~/Code/brocolors")
+could specify the location of your package in the call to `build`, like `build("~/Code/brocolors")`.
 
 To _install_ the R package, you'd type
 
@@ -90,6 +88,29 @@ file. (You _could_ install the package from the command line, with `R
 CMD INSTALL brocolors_0.1.tar.gz`, because `R CMD build` created a
 minimal `NAMESPACE` file for you.  devtools is a bit more particular
 in this case.)
+
+### Installing a package a personal directory
+
+If you wish to install your package somewhere other than the standard
+location (which may be write-protected), you need to do two things.
+
+First, create a file called `~/.Renviron` containing the following
+line:
+
+    R_LIBS=/path/to/Rlibs
+
+replacing `/path/to/Rlibs` with the path that you want to use. For
+example, I use `/Users/kbroman/Rlibs`.
+
+Second, when you run `R CMD INSTALL` at the command line, use the flag
+`--library=/path/to/Rlibs`, as follows:
+
+    R CMD INSTALL --library=/path/to/Rlibs brocolors_0.1.tar.gz
+
+If you install the package using `devtools::install()`, you just need
+the `~/.Renviron` file; you don't need to do anything different with
+the `install()` command. devtools will use the path defined by the
+`R_LIBS` variable.
 
 ---
 
