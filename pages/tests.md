@@ -143,7 +143,7 @@ Find a bug, write a test, and _then_ fix the bug.
 If you poke around [GitHub](http://github.com), you'll often see R
 packages whose ReadMe files contain badges like this:
 
-[![Build Status](https://travis-ci.org/kbroman/broman.png?branch=master)](https://travis-ci.org/kbroman/broman)
+![Build Status](https://api.travis-ci.org/travis-ci/travis-web.svg?branch=master)
 
 The package author is using the [Travis CI](http://travis-ci.org) site
 to test their package whenever they push changes to
@@ -172,7 +172,7 @@ email with a message about whether it worked or not.
 The final step: add a bit of code like the following to the ReadMe
 file for your package:
 
-    [![Build Status](https://travis-ci.org/user/pkg.png?branch=master)](https://travis-ci.org/user/pkg)
+    [![Build Status](https://travis-ci.org/user/pkg.svg?branch=master)](https://travis-ci.org/user/pkg)
 
 Replace `user` with your GitHub user name and `pkg` with the name of
 your package repository.
