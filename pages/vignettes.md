@@ -35,23 +35,22 @@ you need to do is:
 
 - Create a `vignettes` subdirectory.
 - Put your `.Rmd` file in that directory.
-- Include code like the following at the top of the `.Rmd` file:
+- Within the YAML header at the top of the `.Rmd` file, include code
+  like the following:
 
-      <!--
-      %\VignetteEngine{knitr::knitr}
-      %\VignetteIndexEntry{Put the title of your vignette here}
-      -->
+      output: rmarkdown::html_vignette
+      vignette: >
+        %\VignetteIndexEntry{Put the title of your vignette here}
+        %\VignetteEngine{knitr::rmarkdown}
+        \usepackage[utf8](inputenc)
 
 - Add the following lines to your package's `DESCRIPTION` file:
 
-      Suggests: knitr
+      Suggests: knitr, rmarkdown
       VignetteBuilder: knitr
 
-For examples, look at the source for packages you like, e.g.
-[Roxygen2](https://github.com/klutometis/roxygen/tree/master/vignettes),
-[dplyr](https://github.com/hadley/dplyr/tree/master/vignettes),
-[lubridate](https://github.com/hadley/lubridate/tree/master/vignettes),
-and [knitr](https://github.com/yihui/knitr/tree/master/vignettes).
+For examples, look at the source for packages you like, for example
+[dplyr](https://github.com/hadley/dplyr/tree/master/vignettes).
 
 ---
 
