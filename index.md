@@ -16,7 +16,7 @@ personal R functions if they are in a package. And it's good to write
 documentation, even if it's just for your future self.
 
 [Hadley Wickham](http://had.co.nz/) wrote
-[a book about R packages](http://r-pkgs.had.co.nz/) (free online, also
+[a book about R packages](http://r-pkgs.had.co.nz/) (free online; also
 available in paper form from
 [Amazon](http://www.amazon.com/exec/obidos/ASIN/1491910593/7210-20)). You
 might just jump straight there.
