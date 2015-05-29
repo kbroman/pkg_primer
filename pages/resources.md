@@ -30,3 +30,4 @@ description: Resources on constructing R packages.
   building R packages on Windows
 - [A web service](http://win-builder.r-project.org/) for building and
   checking R packages for Windows
+- [R-package-devel email list](https://stat.ethz.ch/mailman/listinfo/r-package-devel)
