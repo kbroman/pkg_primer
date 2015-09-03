@@ -84,7 +84,7 @@ files. (See
 in the
 [Writing R Extensions manual](http://cran.r-project.org/doc/manuals/r-release/R-exts.html).)
 An advantage to this is that the data could be viewed on
-[GitHub](http://github.com], if you
+[GitHub](http://github.com), if you
 [put your package there](github.html). And you might use such `.txt`
 or `.csv` files to demonstrate file formats and how to load data into R.
 
