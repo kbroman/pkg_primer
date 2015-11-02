@@ -89,7 +89,7 @@ CMD INSTALL brocolors_0.1.tar.gz`, because `R CMD build` created a
 minimal `NAMESPACE` file for you.  devtools is a bit more particular
 in this case.)
 
-### Installing a package a personal directory
+### Installing a package in a personal directory
 
 If you wish to install your package somewhere other than the standard
 location (which may be write-protected), you need to do two things.
