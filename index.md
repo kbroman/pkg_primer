@@ -41,7 +41,7 @@ making an R package.
 - [Why write an R package?](pages/why.html)
 - [The minimal R package](pages/minimal.html)
 - [Building and installing an R package](pages/build.html)
-- [Making it an proper package](pages/proper.html)
+- [Making it a proper package](pages/proper.html)
 - [Writing documentation with Roxygen2](pages/docs.html)
 - [Software licenses](pages/licenses.html)
 - [Checking an R package](pages/check.html)
