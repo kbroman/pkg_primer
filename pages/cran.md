@@ -80,8 +80,8 @@ bottom of the [CRAN front page](http://cran.r-project.org/),
 &ldquo;Submitting to CRAN.&rdquo; Submission is now via a
 [web form](http://xmpalantir.wu.ac.at/cransubmit/).  If this process
 fails, you can go back to the &ldquo;old&rdquo; method: upload your
-package to <ftp://CRAN.R-project.org/incoming> and send an email to
-<cran@r-project.org>. The email should be carefully phrased (and must
+package to <ftp://CRAN.R-project.org/incoming> and send an email to <cran@r-project.org>.
+The email should be carefully phrased (and must
 be sent as `plain text`!). Be sure to mention that you've read and
 agree to the
 [CRAN policies](http://cran.r-project.org/web/packages/policies.html).
