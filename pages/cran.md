@@ -75,15 +75,15 @@ want to have some time to make changes and
 resubmit. ([Not everyone agrees with me](https://twitter.com/_inundata/status/509379592830722048)
 on this point.)
 
-7. Instructions on how to submit your package to CRAN are at the bottom
-of the [CRAN front page](http://cran.r-project.org/),
+7. Instructions on how to submit your package to CRAN are at the
+bottom of the [CRAN front page](http://cran.r-project.org/),
 &ldquo;Submitting to CRAN.&rdquo; Submission is now via a
 [web form](http://xmpalantir.wu.ac.at/cransubmit/).  If this process
 fails, you can go back to the &ldquo;old&rdquo; method: upload your
-package to <ftp://CRAN.R-project.org/incoming> and send an emai to
+package to <ftp://CRAN.R-project.org/incoming> and send an email to
 <cran@r-project.org>. The email should be carefully phrased (and must
-be sent as `plain text`!). Be
-sure to mention that you've read and agree to the
+be sent as `plain text`!). Be sure to mention that you've read and
+agree to the
 [CRAN policies](http://cran.r-project.org/web/packages/policies.html).
 
 8. Finally, _put on your armor_. One of the people that handles CRAN
