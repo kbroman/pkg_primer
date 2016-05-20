@@ -40,21 +40,24 @@ you need to do is:
 
       ---
       title: "Put the title of your vignette here"
-      date: "`r Sys.Date()`"
       output: rmarkdown::html_vignette
       vignette: >
         %\VignetteIndexEntry{Put the title of your vignette here}
         %\VignetteEngine{knitr::rmarkdown}
         \usepackage[utf8]{inputenc}
-      ---  
+      ---
 
 - Add the following lines to your package's `DESCRIPTION` file:
 
       Suggests: knitr, rmarkdown
       VignetteBuilder: knitr
 
-- Build your vignette with the `devtools::build_vignettes()` function.
-The resulting `.html` vignette will be in the `inst/doc` folder.
+- You can build your vignette with the `devtools::build_vignettes()` function.
+  The resulting `.html` vignette will be in the `inst/doc` folder.
+
+  Alternatively, when you run `R CMD build`, the `.html` file for the
+  vignette will be built as part of the construction of the `.tar.gz`
+  file for the package.
 
 For examples, look at the source for packages you like, for example
 [dplyr](https://github.com/hadley/dplyr/tree/master/vignettes).
