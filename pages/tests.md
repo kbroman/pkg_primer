@@ -188,10 +188,11 @@ If you _know_ that you want Travis CI to
 (e.g., you've just edited the ReadMe file), include `[ci skip]` or
 `[skip ci]` anywhere in the commit message.
 
-**Note**: [L. Collado Torres](http://biostat.jhsph.edu/~lcollado/) has written a
-[much more detailed protocol](http://jtleek.com/protocols/travis_bioc_devel)
-on Travis for R packages. It's a very useful read!
-
+**Note**: Also see [Julia Silge](http://juliasilge.com/)'s
+[Beginner's guide to Travis for R](http://juliasilge.com/blog/Beginners-Guide-to-Travis/)
+and [L. Collado Torres](http://biostat.jhsph.edu/~lcollado/)'s
+slightly out of date but still useful
+[Protocol on Travis for R packages](http://jtleek.com/protocols/travis_bioc_devel).
 
 ---
 
