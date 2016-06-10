@@ -18,7 +18,7 @@ documentation, even if it's just for your future self.
 [Hadley Wickham](http://had.co.nz/) wrote
 [a book about R packages](http://r-pkgs.had.co.nz/) (free online; also
 available in paper form from
-[Amazon](http://www.amazon.com/exec/obidos/ASIN/1491910593/7210-20)). You
+[Amazon](https://www.amazon.com/gp/product/1491910593?ie=UTF8&tag=7210-20)). You
 might just jump straight there.
 
 [Hilary Parker](http://hilaryparker.com) wrote a
