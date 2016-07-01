@@ -28,7 +28,7 @@ look something like this:
 
     Package: brocolors
     Version: 0.1
-    Date: 8/27/2014
+    Date: 2014-08-27
     Title: Karl Broman colors
     Description: Colors that Karl Broman uses in figures
     Author: Karl W Broman <kbroman@biostat.wisc.edu>

@@ -85,7 +85,7 @@ for my [R/qtlcharts package](https://github.com/kbroman/qtlcharts).
 
     Package: qtlcharts
     Version: 0.2-44
-    Date: 8 Sep 2014
+    Date: 2014-09-08
     Title: Interactive graphics for QTL experiments
     Author: Karl W Broman <kbroman@biostat.wisc.edu>
     Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
