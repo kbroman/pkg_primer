@@ -51,7 +51,7 @@ There are two big weaknesses to this.
   the actual code).
 
 [Roxygen2](https://github.com/klutometis/roxygen) is the solution to
-this. With Roxygen2, you write a specially-structure comment preceding
+this. With Roxygen2, you write specially-structured comments preceding
 each function definition. These are processed to produce the `.Rd`
 files that R wants, and it also creates that painful `NAMESPACE` file
 for you.
@@ -106,7 +106,7 @@ For each of the function arguments, you want a line like
 The line with `@return` contains a description of what the function
 returns. Here I just say &ldquo;`None`,&rdquo; but this could have a longer
 description, as in
-[the Roxygen comments for the brocolors function](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage3/R/brocolors.R)
+[the Roxygen comments for the brocolors function](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage3/R/brocolors.R).
 
     #' @return Vector of character strings representing the chosen set of colors, in RGB.
 

@@ -36,7 +36,7 @@ package to resolve the problems.
 
 For reasons that I don't entirely understand, there's a `--as-cran`
 flag that will do a few additional checks. If you're considering
-submitting your package to CRAN, you should try that it that way, too.
+submitting your package to CRAN, you should try it that way, too.
 
     R CMD check --as-cran brocolors_0.1.tar.gz
 
