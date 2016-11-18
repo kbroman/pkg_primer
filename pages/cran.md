@@ -72,7 +72,7 @@ on Windows. You can use `build_win()` in the
 6. Also check your package using the development version of R, as this
 may reveal additional issues. I find it easiest to accomplish this by
 submitting to <http://win-builder.r-project.org> (which gives you the
-option of using the R-release or R-devel), as then I don't need to
+option of using R-release or R-devel), as then I don't need to
 take the time to install R-devel locally.
 
 7. Submit your package at the beginning of a week in which you don't
