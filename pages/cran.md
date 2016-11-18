@@ -69,13 +69,19 @@ the <http://win-builder.r-project.org> to build and check your package
 on Windows. You can use `build_win()` in the
 [devtools package](https://github.com/hadley/devtools) for this.
 
-6. Submit your package at the beginning of a week in which you don't
+6. Also check your package using the development version of R, as this
+may reveal additional issues. I find it easiest to accomplish this by
+submitting to <http://win-builder.r-project.org> (which gives you the
+option of using the R-release or R-devel), as then I don't need to
+take the time to install R-devel locally.
+
+7. Submit your package at the beginning of a week in which you don't
 have many commitments. If CRAN finds problems in your package, you'll
 want to have some time to make changes and
 resubmit. ([Not everyone agrees with me](https://twitter.com/_inundata/status/509379592830722048)
 on this point.)
 
-7. Instructions on how to submit your package to CRAN are at the
+8. Instructions on how to submit your package to CRAN are at the
 bottom of the [CRAN front page](http://cran.r-project.org/),
 &ldquo;Submitting to CRAN.&rdquo; Submission is now via a
 [web form](http://xmpalantir.wu.ac.at/cransubmit/).  If this process
@@ -86,7 +92,7 @@ be sent as `plain text`!). Be sure to mention that you've read and
 agree to the
 [CRAN policies](http://cran.r-project.org/web/packages/policies.html).
 
-8. Finally, _put on your armor_. One of the people that handles CRAN
+9. Finally, _put on your armor_. One of the people that handles CRAN
 submissions can be unnecessarily offensive and pedantic. Try to put
 his little barbs out of your mind and focus on his actual advice on
 how to revise your package to make it suitable for CRAN.  (Please
