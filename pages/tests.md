@@ -155,9 +155,9 @@ after every change, the package is automatically built and tested.
 This is another great reason to place your package on GitHub. And use
 of [Travis CI](http://travis-ci.com) is remarkably easy to set up,
 particularly with the [devtools](http://github.com/hadley/devtools)
-function `add_travis()`.
+function `use_travis()`.
 
-If you invoke R within your package directory, `add_travis()` will add
+If you invoke R within your package directory, `use_travis()` will add
 a file `.travis.yml` with the relevant information for Travis CI, and
 then will add that file name to the `.Rbuildignore` file, so that `R
 CMD build` will ignore it.
