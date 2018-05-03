@@ -175,29 +175,6 @@ HTML. See my [simple site](http://kbroman.org/simple_site) tutorial
 &ndash; particularly the page on
 [making a project site](http://kbroman.org/simple_site/pages/project_site.html).
 
-### Non-standard `ReadMe` files
-
-Note that if you call your `README` file something other than `README`
-or `README.md` (e.g., `ReadMe.md`), `R CMD check --as-cran` will
-report a &ldquo;Note&rdquo; (not as bad as a warning or error, but to
-be avoided). Personally, I prefer `ReadMe.md`. One solution to this:
-
-- Create a `.Rbuildignore` file with the line
-
-      ^ReadMe.md$
-
-- Create an `inst` subdirectory containing a soft-link to your file.
-
-      mkdir inst
-      cd inst
-      ln -s ../ReadMe.md
-
-`R CMD build` will then ignore the `ReadMe.md` file in the root
-directory of your package, but it moves everything in the `inst`
-subdirectory into the root directory, and so this method lets you name
-your readme file whatever you want, but avoids the flag from
-`R CMD check --as-cran`.
-
 
 ---
 
