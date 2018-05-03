@@ -189,8 +189,7 @@ be avoided). Personally, I prefer `ReadMe.md`. One solution to this:
 - Create an `inst` subdirectory containing a soft-link to your file.
 
       mkdir inst
-      cd inst
-      ln -s ../ReadMe.md
+      ln -s ../ReadMe.md inst/README.md
 
 `R CMD build` will then ignore the `ReadMe.md` file in the root
 directory of your package, but it moves everything in the `inst`
