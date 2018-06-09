@@ -5,7 +5,7 @@ description: Reasons to write an R package.
 ---
 
 R packages and the
-[Comprehensive R Archive Network (CRAN)](http://cran.r-project.org)
+[Comprehensive R Archive Network (CRAN)](https://cran.r-project.org)
 are incredibly important features of R. R packages provide a simple way to
 distribute R code and documentation. Packages on CRAN are basically
 guaranteed to be installable, as they are regularly built, installed,

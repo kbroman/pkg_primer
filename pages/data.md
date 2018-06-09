@@ -25,8 +25,8 @@ Next, create a `.R` file with
 produce the documentation for the dataset, and place the file in the
 `R` subdirectory with all of your other `.R` files. Here's an example,
 for the dataset `grav` in my
-[R/qtlcharts](http://kbroman.org/qtlcharts) package; see
-[`grav-data.R`](http://github.com/kbroman/qtlcharts/blob/master/R/grav-data.R).
+[R/qtlcharts](https://kbroman.org/qtlcharts) package; see
+[`grav-data.R`](https://github.com/kbroman/qtlcharts/blob/master/R/grav-data.R).
 
     #' Arabidopsis QTL data on gravitropism
     #'
@@ -44,9 +44,9 @@ for the dataset `grav` in my
     #' @keywords datasets
     #'
     #' @references Moore et al. (2013) Genetics 195:1077-1086
-    #' (\href{http://www.ncbi.nlm.nih.gov/pubmed/23979570}{PubMed})
+    #' (\href{https://www.ncbi.nlm.nih.gov/pubmed/23979570}{PubMed})
     #'
-    #' @source \href{http://qtlarchive.org/db/q?pg=projdetails&proj=moore_2013b}{QTL Archive}
+    #' @source \href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
     #'
     #' @examples
     #' data(grav)
@@ -80,11 +80,11 @@ available when the package is loaded; there'll be no need to use
 Okay, one _more_ thing: you can also include R code (in a `.R` file)
 in the `data` directory, and also tabular data as `.txt` or `.csv`
 files. (See
-[Data in packages](http://cran.r-project.org/doc/manuals/r-release/R-exts.html#Data-in-packages)
+[Data in packages](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Data-in-packages)
 in the
-[Writing R Extensions manual](http://cran.r-project.org/doc/manuals/r-release/R-exts.html).)
+[Writing R Extensions manual](https://cran.r-project.org/doc/manuals/r-release/R-exts.html).)
 An advantage to this is that the data could be viewed on
-[GitHub](http://github.com), if you
+[GitHub](https://github.com), if you
 [put your package there](github.html). And you might use such `.txt`
 or `.csv` files to demonstrate file formats and how to load data into R.
 

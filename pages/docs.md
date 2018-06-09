@@ -36,7 +36,7 @@ Here is part of [the `.Rd` file for the `plot_crayons` function](https://github.
     plot_crayons()
     }
 
-The format looks a bit like [LaTeX](http://www.latex-project.org/),
+The format looks a bit like [LaTeX](https://www.latex-project.org/),
 with things like `\field{content}`.
 
 There are two big weaknesses to this.
@@ -84,7 +84,7 @@ There are still a few of `.Rd`-like things here (`\code{}` and
 `\code{\link{}}`) &ndash; a few `.Rd` frills that you can use, but
 they're not strictly necessary. (_Ultimately_, you'll want to read
 that comprehensive
-[Writing R Extensions](http://cran.r-project.org/doc/manuals/r-release/R-exts.html)
+[Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
 manual, including the specification of the `.Rd` format and
 `NAMESPACE` files, but you can probably put that off for a while.)
 
@@ -196,13 +196,13 @@ within R.
 And actually, I'll put that line within a `Makefile` within my package.
 (See
 [the `Makefile` for my R/broman package](https://github.com/kbroman/broman/blob/master/Makefile).
-Also take a look at my [minimal make tutorial](http://kbroman.org/minimal_make).)
+Also take a look at my [minimal make tutorial](https://kbroman.org/minimal_make).)
 I can then type `make` at the command line (within my
 package directory) to build the
 documentation. I do this because some of my packages have a more
 complicated build process
-(e.g. [R/qtlcharts](http://github.com/kbroman/qtlcharts)), and because
-I love [GNU make](http://www.gnu.org/software/make/).
+(e.g. [R/qtlcharts](https://github.com/kbroman/qtlcharts)), and because
+I love [GNU make](https://www.gnu.org/software/make/).
 
 If you go the `Makefile` route, you'll want to also include a
 `.Rbuildignore` file in your package directory, sort of like
@@ -231,7 +231,7 @@ For example, in the
 file, you'll see
 
     #' @author Karl W Broman, \email{kbroman@@biostat.wisc.edu}
-    #' @references \url{http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
+    #' @references \url{https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
     #' @seealso \code{\link{brocolors}}
     #' @keywords hplot
     #' ...
@@ -253,16 +253,16 @@ this.)
 The `@importFrom` bits tell Roxygen2 to add certain extra things to
 the `NAMESPACE` file. I'd recommend also ignoring these for now.
 Later, read the
-[Roxygen2 vignettes](http://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html)
+[Roxygen2 vignettes](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html)
 (and ultimately the
-[Writing R Extensions](http://cran.r-project.org/doc/manuals/r-release/R-exts.html)
+[Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
 manual)
 to learn more about these things.
 
 Also note: if you've already written a bunch of `.Rd` files for a package
 and you want to convert to the Roxygen2 system, consider the
 [Rd2roxygen](https://github.com/yihui/Rd2roxygen) package (and look at
-its [vignette](http://yihui.name/Rd2roxygen/)).
+its [vignette](https://yihui.name/Rd2roxygen/)).
 
 ---
 

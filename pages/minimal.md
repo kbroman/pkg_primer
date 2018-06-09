@@ -61,7 +61,7 @@ etc., even though this would really just be a single directory,
 
 ### A few asides
 
-The functions above are taken from my [R/broman](http://github.com/kbroman/broman) package, which
+The functions above are taken from my [R/broman](https://github.com/kbroman/broman) package, which
 contains miscellaneous R functions that are useful to me.
 
 [Alyssa Frazee](http://alyssafrazee.com/)'s
@@ -74,10 +74,10 @@ easier for me to define colors for graphs I make for lectures and papers.
 
 Regarding version numbers: I number things like
 `major.minor-revision` as I learned from [Venables and Ripley](https://www.amazon.com/gp/product/1441930086?ie=UTF8&tag=7210-20)'s
-[MASS package](http://cran.r-project.org/web/packages/MASS/index.html).
-[Yihui Xie](http://yihui.name/) recommends `major.minor.patch`, but having releases be
+[MASS package](https://cran.r-project.org/web/packages/MASS/index.html).
+[Yihui Xie](https://yihui.name/) recommends `major.minor.patch`, but having releases be
 just `major.minor`. You should probably follow
-[Yihui's recommendation](http://yihui.name/en/2013/06/r-package-versioning/).)
+[Yihui's recommendation](https://yihui.name/en/2013/06/r-package-versioning/).)
 
 ---
 

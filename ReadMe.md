@@ -2,7 +2,7 @@
 
 R packages are the best way to distribute R code and documentation,
 and, despite the impression that the official manual
-([Writing R Extensions](http://cran.r-project.org/doc/manuals/r-release/R-exts.html))
+([Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html))
 might give, they are really are rather simple to create.
 
 Even for code that you don't plan to distribute, you'll find it is
@@ -15,14 +15,14 @@ your future self.
 jump straight there. But there is value in having a diversity of
 resources, so I thought I'd go ahead and write my own minimal tutorial.
 
-View the thing [here](http://kbroman.org/pkg_primer).
+View the thing [here](https://kbroman.org/pkg_primer).
 
 ---
 
 To the extent possible under law,
-[Karl Broman](http://github.com/kbroman)
+[Karl Broman](https://github.com/kbroman)
 has waived all copyright and related or neighboring rights to
-&ldquo;[R package primer](http://github.com/kbroman/pkg_primer)&rdquo;.
+&ldquo;[R package primer](https://github.com/kbroman/pkg_primer)&rdquo;.
 This work is published from the United States.
 <br/>
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)

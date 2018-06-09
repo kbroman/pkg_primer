@@ -83,7 +83,7 @@ documentation will sit in a `man` subdirectory (`man` for
 &ldquo;manual&rdquo;), and has to be in a special `.Rd` (`Rd` for
 &ldquo;R documentation&rdquo;) format, with `.Rd` file for each
 function in the package.  The `.Rd` format is rather
-[LaTeX](http://www.latex-project.org/)-like and so ugly to prepare and
+[LaTeX](https://www.latex-project.org/)-like and so ugly to prepare and
 maintain.
 
 _But_, you don't _have_ to create those `.Rd` files

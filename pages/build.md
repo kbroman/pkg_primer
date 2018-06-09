@@ -11,7 +11,7 @@ R) or give to a friend to install.
 
 I generally do so from the command line (on my Mac). If you're using
 Windows, you'll want to install
-[Rtools](http://cran.r-project.org/bin/windows/Rtools/).
+[Rtools](https://cran.r-project.org/bin/windows/Rtools/).
 
 ### Building an R package
 

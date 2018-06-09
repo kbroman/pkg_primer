@@ -5,7 +5,7 @@ description: How to write tests for the code in an R package.
 ---
 
 Hadley Wickham said it best, in
-[his 2011 paper](http://rjournal.github.io/archive/2011-1/RJournal_2011-1.pdf#page=5)
+[his 2011 paper](https://rjournal.github.io/archive/2011-1/RJournal_2011-1.pdf#page=5)
 on his [testthat](https://github.com/hadley/testthat) package:
 
 > It's not that we don't test our code, it's that we don't
@@ -29,7 +29,7 @@ errors.
 
 As mentioned in the page on [getting your package on CRAN](cran.html),
 your examples should be quick to run. On
-[CRAN](http://cran.r-project.org), every package is tested daily on
+[CRAN](https://cran.r-project.org), every package is tested daily on
 multiple systems.
 
 You might subset a dataset so that the subsequent
@@ -138,23 +138,23 @@ test code for the bug, you should add that to your battery of tests.
 
 Find a bug, write a test, and _then_ fix the bug.
 
-### Automated testing with [Travis CI](http://travis-ci.org)
+### Automated testing with [Travis CI](https://travis-ci.org)
 
-If you poke around [GitHub](http://github.com), you'll often see R
+If you poke around [GitHub](https://github.com), you'll often see R
 packages whose ReadMe files contain badges like this:
 
 ![Build Status](https://api.travis-ci.org/travis-ci/travis-web.svg?branch=master)
 
-The package author is using the [Travis CI](http://travis-ci.org) site
+The package author is using the [Travis CI](https://travis-ci.org) site
 to test their package whenever they push changes to
-[GitHub](http://github.com). This is an example of what's called
-[Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)
+[GitHub](https://github.com). This is an example of what's called
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 (that's the &ldquo;CI&rdquo; in &ldquo;Travis CI&rdquo;):
 after every change, the package is automatically built and tested.
 
 This is another great reason to place your package on GitHub. And use
-of [Travis CI](http://travis-ci.com) is remarkably easy to set up,
-particularly with the [devtools](http://github.com/hadley/devtools)
+of [Travis CI](https://travis-ci.com) is remarkably easy to set up,
+particularly with the [devtools](https://github.com/hadley/devtools)
 function `use_travis()`.
 
 If you invoke R within your package directory, `use_travis()` will add
@@ -162,7 +162,7 @@ a file `.travis.yml` with the relevant information for Travis CI, and
 then will add that file name to the `.Rbuildignore` file, so that `R
 CMD build` will ignore it.
 
-You then need to sign in to [Travis CI](http://travis-ci.com) with
+You then need to sign in to [Travis CI](https://travis-ci.com) with
 your GitHub account, giving it limited access to your GitHub
 repositories. Then select which of your repositories you want Travis
 CI to monitor and test. That's it. Whenever you push to GitHub, Travis
@@ -184,13 +184,13 @@ You'll want to be careful to not push to GitHub too often, as _every_
 push will cause Travis to build and check your package.
 
 If you _know_ that you want Travis CI to
-[skip a build](http://docs.travis-ci.com/user/how-to-skip-a-build/)
+[skip a build](https://docs.travis-ci.com/user/how-to-skip-a-build/)
 (e.g., you've just edited the ReadMe file), include `[ci skip]` or
 `[skip ci]` anywhere in the commit message.
 
-**Note**: Also see [Julia Silge](http://juliasilge.com/)'s
-[Beginner's guide to Travis for R](http://juliasilge.com/blog/Beginners-Guide-to-Travis/)
-and [L. Collado Torres](http://biostat.jhsph.edu/~lcollado/)'s
+**Note**: Also see [Julia Silge](https://juliasilge.com/)'s
+[Beginner's guide to Travis for R](https://juliasilge.com/blog/Beginners-Guide-to-Travis/)
+and [L. Collado Torres](http://lcolladotor.github.io/#about)'s
 slightly out of date but still useful
 [Protocol on Travis for R packages](http://jtleek.com/protocols/travis_bioc_devel).
 

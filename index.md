@@ -7,7 +7,7 @@ description: A minimal tutorial on how to make an R package.
 
 R packages are the best way to distribute R code and documentation,
 and, despite the impression that the official manual
-([Writing R Extensions](http://cran.r-project.org/doc/manuals/r-release/R-exts.html))
+([Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html))
 might give, they really are quite simple to create.
 
 You should make an R package even for code that you don't plan to
@@ -21,8 +21,8 @@ available in paper form from
 [Amazon](https://www.amazon.com/gp/product/1491910593?ie=UTF8&tag=7210-20)). You
 might just jump straight there.
 
-[Hilary Parker](http://hilaryparker.com) wrote a
-[short and clear tutorial on writing R packages](http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/).
+[Hilary Parker](https://hilaryparker.com) wrote a
+[short and clear tutorial on writing R packages](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/).
 If you want a crash course, you should start there. A lot of people
 have successfully built R packages from her instructions.
 
@@ -33,7 +33,7 @@ straightforward (and hopefully clear). If you're put off by the list
 of topics,
 and you've not already abandoned me in favor of
 [Hadley's book](http://r-pkgs.had.co.nz/), then why aren't you reading
-[Hilary's tutorial](http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)?
+[Hilary's tutorial](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)?
 
 If anyone's still with me, the following pages cover the essentials of
 making an R package.
@@ -62,17 +62,17 @@ The following contains links to other resources:
 If anything here is confusing (or _wrong_!), or if I've missed
 important details, please
 [submit an issue](https://github.com/kbroman/pkg_primer/issues), or (even
-better) fork [the GitHub repository for this website](http://github.com/kbroman/pkg_primer),
+better) fork [the GitHub repository for this website](https://github.com/kbroman/pkg_primer),
 make modifications, and submit a pull request.
 
 ---
 
-The source for this tutorial is [on github](http://github.com/kbroman/pkg_primer).
+The source for this tutorial is [on github](https://github.com/kbroman/pkg_primer).
 
-Also see my [tutorials](http://kbroman.org/pages/tutorials) on
-[git/github](http://kbroman.org/github_tutorial),
-[GNU make](http://kbroman.org/minimal_make),
-[knitr](http://kbroman.org/knitr_knutshell),
-[making a web site with GitHub Pages](http://kbroman.org/simple_site),
-[data organization](http://kbroman.org/dataorg),
-and [reproducible research](http://kbroman.org/steps2rr).
+Also see my [tutorials](https://kbroman.org/pages/tutorials) on
+[git/github](https://kbroman.org/github_tutorial),
+[GNU make](https://kbroman.org/minimal_make),
+[knitr](https://kbroman.org/knitr_knutshell),
+[making a web site with GitHub Pages](https://kbroman.org/simple_site),
+[data organization](https://kbroman.org/dataorg),
+and [reproducible research](https://kbroman.org/steps2rr).

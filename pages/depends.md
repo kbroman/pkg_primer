@@ -12,12 +12,12 @@ available when your package is loaded.
 
 This gets a little complicated (and _boring_!), and the procedures
 have changed over time, and my understanding of R
-[is not always up-to-date](http://kbroman.org/hipsteR). So some of
+[is not always up-to-date](https://kbroman.org/hipsteR). So some of
 this may not be quite right. (If you find a mistake or want to suggest
 improvements, please tell me, by submitting an
 [Issue](https://github.com/kbroman/pkg_primer/issues) or
 [Pull Request](https://github.com/kbroman/pkg_primer/pulls), or via
-[Twitter](http://twitter.com/kwbroman).)
+[Twitter](https://twitter.com/kwbroman).)
 
 ### Using functions in other packages
 
@@ -32,7 +32,7 @@ will be loaded, rather than attaching the whole package.
 
 The `::` operator only works for functions that are in the namespace
 of that other package. Other functions, that weren't exported, can be used
-with the `:::` operator. But [CRAN](http://cran.r-project.org) doesn't
+with the `:::` operator. But [CRAN](https://cran.r-project.org) doesn't
 allow the `:::` operator. If you want to use functions that aren't in
 that other package's namespace, you need to either get the author to
 add it, or (if allowable by the package's [license](licenses.html))
@@ -106,7 +106,7 @@ for my [R/qtlcharts package](https://github.com/kbroman/qtlcharts).
         roxygen2,
         testthat
     License: MIT + file LICENSE
-    URL: http://kbroman.org/qtlcharts
+    URL: https://kbroman.org/qtlcharts
     VignetteBuilder: knitr
 
 Note the `Depends`, `Imports`, and `Suggests` lines.
@@ -134,9 +134,9 @@ Note the `Depends`, `Imports`, and `Suggests` lines.
 There's one more: `Enhances`. But it's not so common, and I don't
 quite understand the point, and so I'll just
 say: go read the
-[Package Dependencies](http://cran.r-project.org/doc/manuals/r-release/R-exts.html#Package-Dependencies)
+[Package Dependencies](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Package-Dependencies)
 section in the
-[Writing R Extensions manual](http://cran.r-project.org/doc/manuals/r-release/R-exts.html).
+[Writing R Extensions manual](https://cran.r-project.org/doc/manuals/r-release/R-exts.html).
 Or put that off until you think you need to.
 
 A package should appear in just _one_ of these four sections
