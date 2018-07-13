@@ -136,7 +136,7 @@ Windows users).
 
 To put your package on [GitHub](https://github.com), you'll need to get
 a GitHub account. Then follow the instructions in my
-[git/github guide](https://kbroman.org) on
+[git/github guide](https://kbroman.org/github_tutorial) on
 [creating a new git repository](https://kbroman.org/github_tutorial/pages/init.html).
 In brief:
 
