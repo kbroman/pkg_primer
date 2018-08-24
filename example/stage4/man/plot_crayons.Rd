@@ -11,7 +11,7 @@ plot_crayons(method2order = c("hsv", "cluster"), cex = 0.6, mar = rep(0.1,
 
 \item{cex}{character expansion for the text}
 
-\item{mar}{margin paramaters; vector of length 4 (see \code{\link[graphics]{par}})}
+\item{mar}{margin parameters; vector of length 4 (see \code{\link[graphics]{par}})}
 }
 \value{
 None

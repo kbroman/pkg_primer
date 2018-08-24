@@ -24,7 +24,7 @@ Here is part of [the `.Rd` file for the `plot_crayons` function](https://github.
 
     \item{cex}{character expansion for the text}
 
-    \item{mar}{margin paramaters; vector of length 4 (see \code{\link[graphics]{par}})}
+    \item{mar}{margin parameters; vector of length 4 (see \code{\link[graphics]{par}})}
     }
     \value{
     None
@@ -64,7 +64,7 @@ Here's [an example](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/
     #'
     #' @param method2order method to order colors (\code{"hsv"} or \code{"cluster"})
     #' @param cex character expansion for the text
-    #' @param mar margin paramaters; vector of length 4 (see \code{\link[graphics]{par}})
+    #' @param mar margin parameters; vector of length 4 (see \code{\link[graphics]{par}})
     #'
     #' @return None
     #'
