@@ -230,7 +230,7 @@ For example, in the
 [`plot_crayons.R`](https://github.com/kbroman/pkg_primer/tree/gh-pages/example/stage3/R/plot_crayons.R)
 file, you'll see
 
-    #' @author Karl W Broman, \email{kbroman@@biostat.wisc.edu}
+    #' @author Karl W Broman, \email{broman@@wisc.edu}
     #' @references \url{https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
     #' @seealso \code{\link{brocolors}}
     #' @keywords hplot
@@ -246,7 +246,7 @@ this should be straightforward, except perhaps for the `\email{}`,
 `\url{}`, and `\code{\link{ }}`; those bits are from the `.Rd` format.
 
 (Note that in my email address here, I've doubled the `@`, so it's
-`kbroman@@biostat.wisc.edu`. Roxygen2 is looking for those `@`'s for
+`broman@@wisc.edu`. Roxygen2 is looking for those `@`'s for
 its field names; if you want an actual `@`, you need to double it like
 this.)
 

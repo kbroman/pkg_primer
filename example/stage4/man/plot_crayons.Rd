@@ -23,7 +23,7 @@ Creates a plot of the crayon colors in \code{\link{brocolors}}
 plot_crayons()
 }
 \author{
-Karl W Broman, \email{kbroman@biostat.wisc.edu}
+Karl W Broman, \email{broman@wisc.edu}
 }
 \references{
 \url{http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
@@ -32,4 +32,3 @@ Karl W Broman, \email{kbroman@biostat.wisc.edu}
 \code{\link{brocolors}}
 }
 \keyword{hplot}
-

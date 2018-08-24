@@ -42,10 +42,9 @@ text(seq(along=sex), rep(5.7, length(sex)), names(sex))
 points(1, 7, pch=21, bg=brocolors("main"), cex=4)
 }
 \author{
-Karl W Broman, \email{kbroman@biostat.wisc.edu}
+Karl W Broman, \email{broman@wisc.edu}
 }
 \seealso{
 \code{\link{plot_crayons}}
 }
 \keyword{utilities}
-

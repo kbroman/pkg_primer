@@ -31,8 +31,8 @@ look something like this:
     Date: 2014-08-27
     Title: Karl Broman Colors
     Description: Colors that Karl Broman uses in figures.
-    Author: Karl W Broman <kbroman@biostat.wisc.edu>
-    Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
+    Author: Karl W Broman <broman@wisc.edu>
+    Maintainer: Karl W Broman <broman@wisc.edu>
 
 The title should be short. The description should be a sentence or
 two; it can span multiple lines. The `Maintainer` field should include

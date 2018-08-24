@@ -6,7 +6,7 @@
 #'
 #' @return Vector of character strings representing the chosen set of colors, in RGB.
 #'
-#' @author Karl W Broman, \email{kbroman@@biostat.wisc.edu}
+#' @author Karl W Broman, \email{broman@@wisc.edu}
 #' @seealso \code{\link{plot_crayons}}
 #' @keywords utilities
 #'
