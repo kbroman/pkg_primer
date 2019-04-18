@@ -7,6 +7,8 @@ description: Resources on constructing R packages.
 - [Hilary Parker](https://hilaryparker.com)'s
   &ldquo;[Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 - [Hadley Wickham](http://had.co.nz/)'s [book about R packages](http://r-pkgs.had.co.nz/)
+- [rOpenSci](https://ropensci.org)'s
+  [ebook on R package development, maintenance, and peer review](https://ropensci.github.io/dev_guide/)
 - [Friedrich Leisch](http://www.statistik.lmu.de/~leisch/)'s [Tutorial on creating R packages (pdf)](https://cran.r-project.org/doc/contrib/Leisch-CreatingPackages.pdf)
 - [Jeff Leek on developing R packages](https://github.com/jtleek/rpackages)
 - [Stat 545 guide to writing an R package](http://stat545-ubc.github.io/packages00_index.html)
