@@ -25,7 +25,7 @@ There are
 [lots of different software licenses](https://tldrlegal.com/) to
 choose from. That's part of why this is such a painful topic. (That they are almost
 all really boring to read is another part of the pain. The
-[WTFPL](http://www.wtfpl.net/) is one of the few that is not boring.)
+[WTFPL](https://wtfpl2.com/) is one of the few that is not boring.)
 
 Personally, I choose between the
 [MIT license](https://en.wikipedia.org/wiki/MIT_License) and the
