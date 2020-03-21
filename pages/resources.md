@@ -11,7 +11,7 @@ description: Resources on constructing R packages.
   [ebook on R package development, maintenance, and peer review](https://ropensci.github.io/dev_guide/)
 - [Friedrich Leisch](http://www.statistik.lmu.de/~leisch/)'s [Tutorial on creating R packages (pdf)](https://cran.r-project.org/doc/contrib/Leisch-CreatingPackages.pdf)
 - [Jeff Leek on developing R packages](https://github.com/jtleek/rpackages)
-- [Stat 545 guide to writing an R package](http://stat545-ubc.github.io/packages00_index.html)
+- [Stat 545 guide to writing an R package](https://stat545.com/package-overview.html)
 - The official
   [Writing R extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
   manual [![pdf icon](icons/pdf-icon.png)](https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf)
