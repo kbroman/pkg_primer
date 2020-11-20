@@ -203,10 +203,19 @@ package testing. See [this blog
 post](https://ropensci.org/technotes/2020/11/19/moving-away-travis/)
 at [ROpenSci](https://https://ropensci.org).
 
-The basic suggestion is to use [usethis](https://usethis.r-lib.org/):
+The basic suggestion is to use one of the following commands from the
+[usethis](https://usethis.r-lib.org/) package. The following runs `R
+CMD check` on the three major operating systems (mac, windows, linux)
+on the release and devel versions of R:
 
 ```r
 usethis::use_github_action_check_standard()
+```
+
+The following just checks the release version and just on mac:
+
+```r
+usethis::use_github_action_check_release()
 ```
 
 ---
