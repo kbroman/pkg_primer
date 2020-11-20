@@ -194,6 +194,21 @@ and [L. Collado Torres](http://lcolladotor.github.io/#about)'s
 slightly out of date but still useful
 [Protocol on Travis for R packages](http://jtleek.com/protocols/travis_bioc_devel).
 
+### Automated testing with [Github Actions](https://github.com/features/actions)
+
+There's been a big change to Travis: `travis-ci.org` is shutting down
+and `travis-ci.com` is focusing on commercial efforts. It's seems
+generally recommended to move to using Github Actions for automated
+package testing. See [this blog
+post](https://ropensci.org/technotes/2020/11/19/moving-away-travis/)
+at [ROpenSci](https://https://ropensci.org).
+
+The basic suggestion is to use [usethis](https://usethis.r-lib.org/):
+
+```r
+usethis::use_github_action_check_standard()
+```
+
 ---
 
 Now go to the page about [including datasets](data.html).
