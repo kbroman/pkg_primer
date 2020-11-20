@@ -197,22 +197,23 @@ slightly out of date but still useful
 ### Automated testing with [Github Actions](https://github.com/features/actions)
 
 There's been a big change to Travis: `travis-ci.org` is shutting down
-and `travis-ci.com` is focusing on commercial efforts. It's seems
-generally recommended to move to using Github Actions for automated
+and `travis-ci.com` is focusing on commercial efforts. It seems
+generally recommended to move to using [Github Actions](https://github.com/features/actions) for automated
 package testing. See [this blog
 post](https://ropensci.org/technotes/2020/11/19/moving-away-travis/)
 at [ROpenSci](https://https://ropensci.org).
 
 The basic suggestion is to use one of the following commands from the
-[usethis](https://usethis.r-lib.org/) package. The following runs `R
-CMD check` on the three major operating systems (mac, windows, linux)
+[usethis](https://usethis.r-lib.org/) package. The following sets
+things up to run `R CMD check` on the three major operating systems (mac, windows, linux)
 on the release and devel versions of R:
 
 ```r
 usethis::use_github_action_check_standard()
 ```
 
-The following just checks the release version and just on mac:
+The following sets it up for testing with just the release version of
+R and just on mac:
 
 ```r
 usethis::use_github_action_check_release()
