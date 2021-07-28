@@ -23,7 +23,7 @@ word out about your package, I'd recommend
 [Journal of Statistical Software](https://www.jstatsoft.org/), though
 many other journals, including
 [Bioinformatics](https://bioinformatics.oxfordjournals.org/) and
-[Genetics](http://www.genetics.org), publish software notes).
+[Genetics](https://academic.oup.com/genetics), publish software notes).
 
 Here, I'll give some advice on how to get your package on CRAN. It can
 be a [painful](https://twitter.com/xieyihui/status/508650816001945600)
