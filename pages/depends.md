@@ -16,8 +16,7 @@ have changed over time, and my understanding of R
 this may not be quite right. (If you find a mistake or want to suggest
 improvements, please tell me, by submitting an
 [Issue](https://github.com/kbroman/pkg_primer/issues) or
-[Pull Request](https://github.com/kbroman/pkg_primer/pulls), or via
-[Twitter](https://twitter.com/kwbroman).)
+[Pull Request](https://github.com/kbroman/pkg_primer/pulls).)
 
 ### Using functions in other packages
 
