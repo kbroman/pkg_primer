@@ -10,8 +10,8 @@ easier to keep track of your own personal R functions if they are in a
 package. And it's good to write documentation, even if it's just for
 your future self.
 
-[Hadley Wickham](http://had.co.nz/) is writing
-[a book about the basics of R packages](http://r-pkgs.had.co.nz/). You might just
+[Hadley Wickham](https://hadley.nz) is writing
+[a book about the basics of R packages](https://r-pkgs.org/). You might just
 jump straight there. But there is value in having a diversity of
 resources, so I thought I'd go ahead and write my own minimal tutorial.
 

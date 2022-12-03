@@ -47,8 +47,8 @@ _won't_ be tested automatically.
 For proper tests, in which you actually assess whether your code is
 giving the correct answers, use the
 [testthat](https://github.com/hadley/testthat) package. You'd be best
-off reading [the testing section](http://r-pkgs.had.co.nz/tests.html)
-in Hadley's [book on R packages](http://r-pkgs.had.co.nz/), but let me
+off reading [the testing section](https://r-pkgs.org/testing-basics.html)
+in Hadley's [book on R packages](https://r-pkgs.org/), but let me
 give a brief synopsis with a few examples.
 
 Create a subdirectory `tests` and within that create another

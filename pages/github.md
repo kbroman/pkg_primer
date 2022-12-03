@@ -72,7 +72,7 @@ There are a number of advantages to putting your R package on GitHub.
   &ldquo;There's a typo in your documentation,&rdquo; they can say
   &ldquo;Here, I've fixed a typo in your documentation.&rdquo;
 - With the `install_github()` function in
-  [Hadley Wickham](http://had.co.nz/)'s
+  [Hadley Wickham](https://hadley.nz)'s
   [devtools](https://github.com/hadley/devtools) package, it's easy
   for people to install your package directly from GitHub. It doesn't
   have to be on [CRAN](https://cran.r-project.org). (As

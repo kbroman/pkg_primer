@@ -15,8 +15,8 @@ distribute. You'll find it is easier to keep track of your own
 personal R functions if they are in a package. And it's good to write
 documentation, even if it's just for your future self.
 
-[Hadley Wickham](http://had.co.nz/) wrote
-[a book about R packages](http://r-pkgs.had.co.nz/) (free online; also
+[Hadley Wickham](https://hadley.nz) wrote
+[a book about R packages](https://r-pkgs.org/) (free online; also
 available in paper form from
 [Amazon](https://www.amazon.com/gp/product/1491910593?ie=UTF8&tag=7210-20)). You
 might just jump straight there.
@@ -32,7 +32,7 @@ The following list of topics looks forbidding, but each is short and
 straightforward (and hopefully clear). If you're put off by the list
 of topics,
 and you've not already abandoned me in favor of
-[Hadley's book](http://r-pkgs.had.co.nz/), then why aren't you reading
+[Hadley's book](https://r-pkgs.org/), then why aren't you reading
 [Hilary's tutorial](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)?
 
 If anyone's still with me, the following pages cover the essentials of

@@ -53,7 +53,7 @@ try
 
 ### Building and installing a package using devtools
 
-Even easier then the above is to use [Hadley Wickham](http://had.co.nz/)'s
+Even easier then the above is to use [Hadley Wickham](https://hadley.nz)'s
 [devtools](https://github.com/hadley/devtools) package. You can then
 build and install the package from within R.
 

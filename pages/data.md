@@ -9,7 +9,7 @@ in examples or vignettes or to illustrate a data format.
 
 If your example datasets are enormous, you might want to make a
 separate package just with the data. Examples of data packages include
-[Hadley Wickham](http://had.co.nz/)'s
+[Hadley Wickham](https://hadley.nz)'s
 [babynames](https://github.com/hadley/babynames),
 [nycflights13](https://github.com/hadley/nycflights13), and
 [usdanutrients](https://github.com/hadley/usdanutrients) packages.
