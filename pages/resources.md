@@ -32,4 +32,6 @@ description: Resources on constructing R packages.
   building R packages on Windows
 - [A web service](https://win-builder.r-project.org/) for building and
   checking R packages for Windows
+- [A web service](https://mac.r-project.org/macbuilder/submit.html) for building and
+  checking R packages for MacOS
 - [R-package-devel email list](https://stat.ethz.ch/mailman/listinfo/r-package-devel)
